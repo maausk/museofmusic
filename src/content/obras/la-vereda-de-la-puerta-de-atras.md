@@ -14,19 +14,19 @@ historia: |
   Yo, minoría absoluta, el álbum con el que Extremoduro confirmó que podía hacer
   piezas populares sin limar su aspereza. El disco fue editado por DRO y contiene
   algunas de las canciones más perdurables del grupo, entre ellas Standby y esta
-  balada de pérdida, deseo y desorientación. [web:75][web:80][web:91]
+  balada de pérdida, deseo y desorientación. 
 
   La canción vive de una tensión muy concreta: alguien se marcha y quien se queda
   continúa mirando el lugar por el que desapareció. No hay una despedida limpia,
   ni una explicación definitiva, ni un gesto heroico. Solo queda un camino lateral,
   una salida que no era la principal y que, precisamente por eso, se vuelve
-  imposible de olvidar. [web:74][web:102][web:104]
+  imposible de olvidar. 
 
   Su imagen decisiva no habla de recuperar a quien se ha ido. Habla de algo más
   difícil: entender que lo amado puede escapar sin pedir permiso y que retenerlo
   terminaría por destruirlo. La pérdida no se resuelve, pero deja una dirección.
   La persona ausente no vuelve; lo único que permanece es el rastro que deja al
-  marcharse. [web:74][web:102][web:103]
+  marcharse. 
 emocion: |
   La emoción central es el instante exacto en que una persona entiende que ya no
   puede aferrarse a otra. No es abandono frío ni resignación completa: es amor
