@@ -1,0 +1,131 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base
+  title="¿Quieres una web como esta? — museofmusic"
+  description="Este museo es una demostración: diseño, velocidad y contenido que crece solo. Si quieres una web así para tu negocio, hablemos."
+>
+  <section class="wrap contacto">
+    <header class="contacto__head">
+      <p class="eyebrow">Contacto</p>
+      <h1 class="contacto__title">¿Quieres una web<br />como esta?</h1>
+      <p class="contacto__lead">
+        Este museo es, además de una galería, una <em>demostración</em>: diseño
+        cuidado, carga instantánea y un sistema que publica contenido nuevo cada
+        día casi sin esfuerzo. Si quieres algo así para tu negocio —una web, una
+        tienda o una automatización con IA—, cuéntamelo.
+      </p>
+    </header>
+
+    <form id="form-contacto" class="form" novalidate>
+      <div class="form__row">
+        <label class="form__field">
+          <span class="form__label">Nombre</span>
+          <input type="text" name="nombre" required maxlength="120" autocomplete="name" />
+        </label>
+        <label class="form__field">
+          <span class="form__label">Email</span>
+          <input type="email" name="email" required maxlength="160" autocomplete="email" />
+        </label>
+      </div>
+      <label class="form__field">
+        <span class="form__label">Cuéntame qué necesitas</span>
+        <textarea name="mensaje" required rows="6" maxlength="4000"></textarea>
+      </label>
+      <!-- honeypot anti-bots: oculto para humanos -->
+      <label class="form__hp" aria-hidden="true">
+        No rellenes este campo
+        <input type="text" name="web" tabindex="-1" autocomplete="off" />
+      </label>
+      <div class="form__foot">
+        <button class="btn" type="submit">Enviar <span aria-hidden="true">→</span></button>
+        <p class="form__status placard" role="status" aria-live="polite"></p>
+      </div>
+    </form>
+  </section>
+</Base>
+
+<script>
+  const form = document.getElementById('form-contacto');
+  const status = form?.querySelector('.form__status');
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = form.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    status.textContent = 'Enviando…';
+    try {
+      const res = await fetch('/api/enviar.php', {
+        method: 'POST',
+        body: new FormData(form),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.ok) {
+        form.reset();
+        status.textContent = 'Enviado. Te respondo pronto.';
+      } else {
+        status.textContent = data.error || 'No se pudo enviar. Escríbeme a direccion@museofmusic.art';
+      }
+    } catch {
+      status.textContent = 'No se pudo enviar. Escríbeme a direccion@museofmusic.art';
+    } finally {
+      btn.disabled = false;
+    }
+  });
+</script>
+
+<style>
+  .contacto { padding-block: var(--sp-8); max-width: 46rem; }
+  .contacto__title { font-size: var(--step-4); margin-top: var(--sp-2); }
+  .contacto__lead {
+    margin-top: var(--sp-5);
+    font-size: var(--step-1);
+    line-height: 1.5;
+    max-width: 52ch;
+  }
+  .contacto__lead em { font-style: italic; color: var(--accent-ink); }
+
+  .form { margin-top: var(--sp-7); display: grid; gap: var(--sp-5); }
+  .form__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--sp-5);
+  }
+  .form__field { display: grid; gap: var(--sp-2); }
+  .form__label {
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .form input, .form textarea {
+    font: inherit;
+    color: var(--ink);
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 0.7em 0.9em;
+  }
+  .form input:focus-visible, .form textarea:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+    border-color: var(--accent);
+  }
+  .form__hp { position: absolute; left: -9999px; }
+  .form__foot { display: flex; align-items: center; gap: var(--sp-4); }
+  .btn {
+    display: inline-flex; align-items: center; gap: 0.5em;
+    padding: 0.7em 1.4em;
+    background: var(--ink); color: var(--paper);
+    border: 0; border-radius: var(--radius);
+    font-size: var(--step--1); letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: background 0.3s var(--ease);
+  }
+  .btn:hover { background: var(--accent-ink); }
+  .btn:disabled { opacity: 0.6; cursor: wait; }
+
+  @media (max-width: 560px) {
+    .form__row { grid-template-columns: 1fr; }
+  }
+</style>

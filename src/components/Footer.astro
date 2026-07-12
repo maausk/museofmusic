@@ -1,0 +1,42 @@
+
+Footer · ASTRO
+---
+const year = new Date().getFullYear();
+---
+<footer class="site-foot">
+  <div class="wrap site-foot__inner">
+    <p class="site-foot__line">
+      <span class="wordmark-mini"><span aria-hidden="true">◉</span> museofmusic</span>
+      <span class="site-foot__desc">Cada canción, un símbolo.</span>
+    </p>
+    <p class="placard">
+      <a href="/contacto">¿Quieres una web como esta?</a>
+      <span aria-hidden="true"> · </span>© {year} · museofmusic.art
+    </p>
+  </div>
+</footer>
+ 
+<style>
+  .site-foot {
+    margin-top: var(--sp-9);
+    border-top: 1px solid var(--line);
+    padding-block: var(--sp-6);
+  }
+  .site-foot__inner {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--sp-3);
+  }
+  .wordmark-mini {
+    font-family: var(--font-display);
+    font-size: var(--step-0);
+  }
+  .wordmark-mini span { color: var(--accent); }
+  .site-foot__desc {
+    color: var(--ink-soft);
+    margin-left: var(--sp-3);
+    font-size: var(--step--1);
+  }
+</style>

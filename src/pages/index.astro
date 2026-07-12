@@ -1,0 +1,243 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import ObraCard from '../components/ObraCard.astro';
+
+const obras = (await getCollection('obras', ({ data }) => !data.borrador))
+  .sort((a, b) => a.data.orden - b.data.orden);
+
+const destacada = obras.find((o) => o.data.destacada) ?? obras[0];
+const resto = obras.filter((o) => o.id !== destacada?.id);
+const total = obras.length;
+---
+
+<Base title="museofmusic — un museo de canciones ilustradas">
+  <!-- Manifiesto + obra destacada en una sola composición: en desktop, texto
+       a la izquierda y arte a la derecha, todo en el primer viewport. -->
+  {destacada && (
+    <section class="hero wrap" aria-labelledby="hero-h" style={`--obra-accent:${destacada.data.acento}`}>
+      <div class="hero__copy">
+        <p class="eyebrow">Museo de canciones ilustradas</p>
+        <h1 id="hero-h" class="hero__title">Muse of<br />Music</h1>
+        <p class="hero__lead">
+          Cada canción se destila en <em>un solo símbolo</em>. Sin letra, sin
+          caras, sin instrumentos: solo la emoción, condensada en una imagen.
+        </p>
+        <p class="hero__game">Tú miras. Tú adivinas.</p>
+        <div class="hero__actions">
+          <a class="btn" href="#coleccion">Entrar en la galería <span aria-hidden="true">↓</span></a>
+          <a class="btn btn--ghost" href={`/obra/${destacada.id}`}>La obra destacada <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <a class="hero__art" href={`/obra/${destacada.id}`} aria-label="Obra destacada: ¿qué canción es?">
+        <img
+          src={destacada.data.imagen}
+          alt={destacada.data.imagenAlt ?? destacada.data.simbolo}
+          width="900" height="1125"
+          fetchpriority="high"
+        />
+        <span class="hero__placard placard">{destacada.data.catalogo} · ¿Qué canción es?</span>
+      </a>
+    </section>
+  )}
+
+  <!-- Colección -->
+  <section class="wrap coleccion" id="coleccion" aria-labelledby="col-h">
+    <header class="coleccion__head">
+      <h2 id="col-h" class="coleccion__title">En sala ahora</h2>
+      <p class="placard">{String(total).padStart(2, '0')} obras en la colección</p>
+    </header>
+    <div class="grid">
+      {resto.map((o) => (
+        <ObraCard
+          href={`/obra/${o.id}`}
+          imagen={o.data.imagen}
+          imagenAlt={o.data.imagenAlt ?? o.data.simbolo}
+          catalogo={o.data.catalogo}
+          acento={o.data.acento}
+        />
+      ))}
+    </div>
+    <div class="coleccion__more">
+      <a class="btn btn--ghost" href="/coleccion">Ver toda la colección <span aria-hidden="true">→</span></a>
+    </div>
+  </section>
+
+  <script>
+    // 1) Sala rotativa: baraja las obras en cada visita y muestra 6.
+    //    El HTML lleva todas (enlazado interno para SEO); lazy-loading evita
+    //    descargar imágenes no visibles, así que el recorte es solo visual.
+    const grid = document.querySelector('.grid');
+    if (grid) {
+      const all = Array.from(grid.children);
+      for (let i = all.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [all[i], all[j]] = [all[j], all[i]];
+      }
+      all.forEach((c) => grid.appendChild(c));
+      all.slice(6).forEach((c) => c.remove());
+    }
+
+    // 2) Aparición por líneas al hacer scroll. Sin JS, la cuadrícula se ve normal.
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (grid && !reduce && 'IntersectionObserver' in window) {
+      const cards = Array.from(grid.children);
+      // Escalonado por columna dentro de cada fila
+      const cols = () => getComputedStyle(grid).gridTemplateColumns.split(' ').length;
+      cards.forEach((c, i) => c.style.setProperty('--reveal-delay', `${(i % cols()) * 0.09}s`));
+      grid.classList.add('reveal-ready');
+      const io = new IntersectionObserver((entries) => {
+        for (const e of entries) {
+          if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+        }
+      }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+      cards.forEach((c) => io.observe(c));
+    }
+  </script>
+</Base>
+
+<style>
+  /* ---- Hero: dos columnas en desktop, apilado en móvil ---- */
+  .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+    gap: clamp(var(--sp-6), 5vw, var(--sp-8));
+    align-items: center;
+    padding-top: clamp(var(--sp-5), 4vh, var(--sp-7));
+    padding-bottom: var(--sp-7);
+    min-height: min(78vh, 720px);
+  }
+
+  .hero__copy { max-width: 34rem; }
+
+  .hero__title {
+    font-size: var(--step-5);
+    margin-top: var(--sp-3);
+    font-variation-settings: 'opsz' 144, 'SOFT' 40, 'WONK' 1;
+  }
+  .hero__lead {
+    font-size: var(--step-1);
+    line-height: 1.45;
+    margin-top: var(--sp-5);
+    max-width: 44ch;
+  }
+  .hero__lead em { font-style: italic; color: var(--accent-ink); }
+  .hero__game {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: var(--step-2);
+    margin-top: var(--sp-4);
+  }
+  .hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-3);
+    margin-top: var(--sp-5);
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.7em 1.2em;
+    background: var(--ink);
+    color: var(--paper);
+    border-radius: var(--radius);
+    font-size: var(--step--1);
+    letter-spacing: 0.02em;
+    transition: background 0.3s var(--ease), transform 0.3s var(--ease);
+  }
+  .btn:hover {
+    text-decoration: none;
+    background: var(--obra-accent);
+    transform: translateY(-1px);
+  }
+  .btn--ghost {
+    background: transparent;
+    color: var(--ink);
+    border: 1px solid var(--line);
+  }
+  .btn--ghost:hover { background: var(--paper-sink); color: var(--ink); }
+
+  .hero__art {
+    display: block;
+    position: relative;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+    max-width: 460px;
+    justify-self: end;
+    box-shadow: 0 40px 80px -50px color-mix(in srgb, var(--obra-accent) 65%, transparent);
+    transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease);
+  }
+  .hero__art img {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    background: var(--paper-sink);
+  }
+  .hero__art:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 48px 90px -50px color-mix(in srgb, var(--obra-accent) 80%, transparent);
+  }
+  .hero__placard {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    padding: var(--sp-3) var(--sp-4);
+    background: color-mix(in srgb, var(--paper) 92%, transparent);
+    backdrop-filter: blur(6px);
+    border-top: 1px solid var(--line-soft);
+  }
+
+  /* ---- Colección ---- */
+  .coleccion { padding-top: var(--sp-6); }
+  .coleccion__head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: var(--sp-5);
+    border-bottom: 1px solid var(--line);
+    margin-bottom: var(--sp-6);
+  }
+  .coleccion__title { font-size: var(--step-3); }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--sp-6) var(--sp-5);
+  }
+
+  .coleccion__more {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--sp-7);
+  }
+
+  /* ---- Reveal on scroll (solo si hay JS: .reveal-ready) ---- */
+  .grid.reveal-ready > :global(*) {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
+    transition-delay: var(--reveal-delay, 0s);
+  }
+  .grid.reveal-ready > :global(*.in) {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* ---- Responsive ---- */
+  @media (max-width: 900px) {
+    .hero {
+      grid-template-columns: 1fr;
+      min-height: 0;
+      gap: var(--sp-6);
+      padding-top: var(--sp-6);
+    }
+    .hero__art { justify-self: start; max-width: 520px; }
+    .grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 480px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>

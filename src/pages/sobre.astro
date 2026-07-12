@@ -1,0 +1,44 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Sobre el museo — museofmusic" description="Qué es Muse of Music y cómo nace cada obra.">
+  <section class="wrap sobre">
+    <p class="eyebrow">Sobre el museo</p>
+    <h1 class="sobre__title">Una canción no se dibuja.<br />Se destila.</h1>
+
+    <div class="sobre__body">
+      <p>
+        Muse of Music no ilustra la letra ni el videoclip. Busca la verdad
+        emocional de cada canción y la condensa en <em>un solo símbolo</em>: un
+        objeto, una silueta, un gesto. Algo que reconoces al primer golpe y que,
+        al segundo vistazo, cuenta otra cosa.
+      </p>
+      <p>
+        Cada obra viene con su ficha: la historia real detrás de la canción, la
+        emoción universal que despierta y el porqué del símbolo elegido. La
+        imagen plantea el enigma; la ficha lo resuelve.
+      </p>
+      <p>
+        Reglas de la casa: nunca reproducimos la letra —ni un verso— ni caras
+        reconocibles de personas reales. Solo la emoción, en forma de imagen.
+      </p>
+      <p class="sobre__cta">
+        ¿Te gustaría una web así para tu negocio?
+        <a href="/contacto">Hablemos →</a>
+      </p>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .sobre { padding-block: var(--sp-8); max-width: var(--measure); }
+  .sobre__title { font-size: var(--step-4); margin-top: var(--sp-2); }
+  .sobre__body { margin-top: var(--sp-6); font-size: var(--step-1); }
+  .sobre__body em { font-style: italic; color: var(--accent-ink); }
+  .sobre__body p { margin-bottom: 1.2em; }
+  .sobre__cta {
+    margin-top: var(--sp-6);
+    padding-top: var(--sp-5);
+    border-top: 1px solid var(--line);
+  }
+</style>

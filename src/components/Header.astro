@@ -1,0 +1,58 @@
+---
+---
+<header class="site-head">
+  <div class="wrap site-head__inner">
+    <a href="/" class="wordmark" aria-label="museofmusic — inicio">
+      <span class="wordmark__mark">◉</span>
+      <span class="wordmark__text">museofmusic</span>
+    </a>
+    <nav class="site-nav" aria-label="Principal">
+      <a href="/coleccion">La colección</a>
+      <a href="/sobre">Sobre el museo</a>
+      <a href="/contacto" class="site-nav__cta">¿Una web así?</a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-head {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: color-mix(in srgb, var(--paper) 86%, transparent);
+    backdrop-filter: saturate(1.4) blur(8px);
+    border-bottom: 1px solid var(--line-soft);
+  }
+  .site-head__inner {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-block: var(--sp-4);
+  }
+  .wordmark {
+    display: inline-flex;
+    align-items: baseline;
+    gap: var(--sp-2);
+    color: var(--ink);
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    letter-spacing: -0.02em;
+    font-variation-settings: 'opsz' 40, 'SOFT' 20, 'WONK' 1;
+  }
+  .wordmark:hover { text-decoration: none; }
+  .wordmark__mark { color: var(--accent); font-size: 0.7em; transform: translateY(-0.1em); }
+  .site-nav {
+    display: flex;
+    gap: var(--sp-5);
+    font-size: var(--step--1);
+    letter-spacing: 0.01em;
+  }
+  .site-nav a { color: var(--ink-soft); }
+  .site-nav a:hover { color: var(--ink); }
+  .site-nav__cta { color: var(--accent-ink) !important; }
+  .site-nav__cta:hover { text-decoration: underline; }
+
+  @media (max-width: 540px) {
+    .site-nav a:first-child { display: none; }
+  }
+</style>

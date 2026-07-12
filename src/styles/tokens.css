@@ -1,0 +1,57 @@
+/* =========================================================================
+   museofmusic — sistema de diseño (tokens)
+   Concepto: galería clara y pop. Las PAREDES son silenciosas para que la
+   OBRA (cada ilustración, con su propio acento cálido) sea lo que grita.
+   El "pop" lo pone la tipografía a gran escala y el ritmo editorial,
+   no el color del sitio.
+   ========================================================================= */
+
+:root {
+  /* ---- Color: papel casi blanco, tinta cálida, un único acento frío ---- */
+  --paper:      #F4F5F3; /* fondo galería, limpio y moderno (no crema) */
+  --paper-sink: #ECEDE8; /* paneles y hover suaves */
+  --ink:        #16150F; /* texto principal, negro cálido */
+  --ink-soft:   #66655B; /* metadatos, texto secundario */
+  --line:       #DEDFD7; /* filetes finos, marcos */
+  --line-soft:  #E9EAE3;
+
+  /* Acento del SITIO: cobalto eléctrico, usado con extrema contención
+     (enlaces, foco, marcas). No compite con los acentos cálidos del arte. */
+  --accent:     #1B34E8;
+  --accent-ink: #1226B8; /* variante con contraste AA sobre papel */
+
+  /* Acento por obra: lo inyecta cada ficha vía frontmatter (--obra-accent). */
+  --obra-accent: #E8622C;
+
+  /* ---- Tipografía ---- */
+  --font-display: 'Fraunces Variable', 'Fraunces', Georgia, serif;
+  --font-body: 'Hanken Grotesk', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: 'Space Mono', ui-monospace, 'SFMono-Regular', monospace;
+
+  /* Escala de tipo (rem, base 16). Fluida en display vía clamp. */
+  --step--1: 0.82rem;
+  --step-0:  1rem;
+  --step-1:  1.2rem;
+  --step-2:  1.5rem;
+  --step-3:  clamp(1.9rem, 1.4rem + 2.2vw, 2.75rem);
+  --step-4:  clamp(2.6rem, 1.6rem + 4.6vw, 4.5rem);
+  --step-5:  clamp(3.4rem, 1.6rem + 8vw, 7.5rem);
+
+  /* ---- Espaciado ---- */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+  --sp-8: 4.5rem;
+  --sp-9: 7rem;
+
+  /* ---- Layout ---- */
+  --measure: 62ch;      /* ancho de lectura cómodo para las fichas */
+  --wrap: 1240px;       /* ancho máximo del contenedor */
+  --radius: 2px;        /* casi sin redondeo: marco de galería */
+
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}

@@ -1,0 +1,240 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import ObraCard from '../../components/ObraCard.astro';
+
+export async function getStaticPaths() {
+  const obras = (await getCollection('obras', ({ data }) => !data.borrador))
+    .sort((a, b) => a.data.orden - b.data.orden);
+
+  return obras.map((obra, i) => {
+    // "Sigue explorando": las siguientes obras en orden de catálogo, dando la
+    // vuelta al llegar al final y excluyendo la actual. Con la colección pequeña
+    // salen todas las demás; cuando crezca, se corta a 5 y rota sola.
+    // Aleatorio por build (Fisher-Yates): cada deploy rebaraja el
+    // "Sigue explorando" de cada ficha. Con deploy diario = sorteo diario.
+    const otras = obras.filter((_, k) => k !== i);
+    for (let a = otras.length - 1; a > 0; a--) {
+      const b = Math.floor(Math.random() * (a + 1));
+      [otras[a], otras[b]] = [otras[b], otras[a]];
+    }
+    const mas = otras.slice(0, 5);
+    return {
+      params: { slug: obra.id },
+      props: { obra, mas },
+    };
+  });
+}
+
+const { obra, mas } = Astro.props;
+const d = obra.data;
+
+// Los campos de texto admiten varios párrafos separados por línea en blanco.
+const parras = (t: string) => t.split(/\n\s*\n/).map((s) => s.trim()).filter(Boolean);
+---
+
+<Base
+  title={`${d.titulo} — ${d.autor} · museofmusic`}
+  description={`${d.simbolo}. La historia, la emoción y el símbolo detrás de la canción.`}
+  image={d.imagen}
+>
+  <article class="ficha" style={`--obra-accent:${d.acento}`}>
+    <div class="wrap">
+      <a class="back" href="/coleccion"><span aria-hidden="true">←</span> La colección</a>
+    </div>
+
+    <!-- La ilustración, a lo grande -->
+    <div class="wrap ficha__art-wrap">
+      <figure class="ficha__art">
+        <img
+          src={d.imagen}
+          alt={d.imagenAlt ?? d.simbolo}
+          width="1000" height="1250"
+          fetchpriority="high"
+        />
+      </figure>
+      <p class="placard ficha__cat">{d.catalogo}</p>
+    </div>
+
+    <!-- Bloque 1: la solución -->
+    <header class="wrap ficha__id">
+      <h1 class="ficha__title">{d.titulo}</h1>
+      <p class="ficha__meta">
+        <span>{d.autor}</span>
+        <span class="dot" aria-hidden="true">·</span>
+        <span>{d.anio}</span>
+      </p>
+    </header>
+
+    <div class="wrap ficha__body">
+      <!-- Bloque 2 -->
+      <section class="blk" aria-labelledby="h-historia">
+        <h2 id="h-historia" class="blk__h"><span class="blk__n">01</span> La historia</h2>
+        <div class="blk__text">{parras(d.historia).map((p) => <p>{p}</p>)}</div>
+      </section>
+
+      <!-- Bloque 3 -->
+      <section class="blk" aria-labelledby="h-emocion">
+        <h2 id="h-emocion" class="blk__h"><span class="blk__n">02</span> La emoción</h2>
+        <div class="blk__text">{parras(d.emocion).map((p) => <p>{p}</p>)}</div>
+      </section>
+
+      <!-- Bloque 4 -->
+      <section class="blk" aria-labelledby="h-ilustracion">
+        <h2 id="h-ilustracion" class="blk__h"><span class="blk__n">03</span> La ilustración</h2>
+        <p class="blk__simbolo">{d.simbolo}</p>
+        <div class="blk__text">{parras(d.ilustracion).map((p) => <p>{p}</p>)}</div>
+      </section>
+    </div>
+
+    <!-- Sigue explorando: enlaza a otras obras (retención + enlazado interno SEO) -->
+    <section class="wrap ficha__mas" aria-labelledby="mas-h">
+      <header class="ficha__mas-head">
+        <h2 id="mas-h" class="ficha__mas-title">Sigue explorando</h2>
+        <p class="placard">¿Y estas?</p>
+      </header>
+      <div class="mas-grid">
+        {mas.map((o) => (
+          <ObraCard
+            href={`/obra/${o.id}`}
+            imagen={o.data.imagen}
+            imagenAlt={o.data.imagenAlt ?? o.data.simbolo}
+            catalogo={o.data.catalogo}
+            acento={o.data.acento}
+          />
+        ))}
+      </div>
+    </section>
+  </article>
+
+  <script>
+    // Baraja las tarjetas de "Sigue explorando" en cada visita y deja 5.
+    const grid = document.querySelector('.mas-grid');
+    if (grid) {
+      const cards = Array.from(grid.children);
+      for (let i = cards.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [cards[i], cards[j]] = [cards[j], cards[i]];
+      }
+      cards.forEach((c) => grid.appendChild(c));
+      cards.slice(5).forEach((c) => c.remove());
+    }
+  </script>
+</Base>
+
+<style>
+  .back {
+    display: inline-block;
+    margin-top: var(--sp-6);
+    color: var(--ink-soft);
+    font-size: var(--step--1);
+  }
+  .back:hover { color: var(--ink); }
+
+  .ficha__art-wrap {
+    margin-top: var(--sp-5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ficha__art {
+    margin: 0;
+    max-width: 560px;
+    width: 100%;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: 0 40px 80px -50px color-mix(in srgb, var(--obra-accent) 70%, transparent);
+  }
+  .ficha__art img { width: 100%; aspect-ratio: 4/5; object-fit: cover; background: var(--paper-sink); }
+  .ficha__cat {
+    margin-top: var(--sp-3);
+    padding-left: 1em;
+    position: relative;
+  }
+  .ficha__cat::before {
+    content: '';
+    position: absolute; left: 0; top: 0.4em;
+    width: 0.55em; height: 0.55em; border-radius: 50%;
+    background: var(--obra-accent);
+  }
+
+  .ficha__id {
+    margin-top: var(--sp-6);
+    text-align: center;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: var(--sp-6);
+  }
+  .ficha__title {
+    font-size: var(--step-4);
+    font-variation-settings: 'opsz' 144, 'SOFT' 40, 'WONK' 1;
+  }
+  .ficha__meta {
+    margin: var(--sp-3) 0 0;
+    font-family: var(--font-mono);
+    font-size: var(--step-0);
+    color: var(--ink-soft);
+    letter-spacing: 0.04em;
+  }
+  .ficha__meta .dot { margin-inline: 0.5em; color: var(--obra-accent); }
+
+  .ficha__body {
+    max-width: var(--measure);
+    margin-top: var(--sp-7);
+  }
+  .blk + .blk { margin-top: var(--sp-7); }
+  .blk__h {
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: var(--step-1);
+    letter-spacing: 0.01em;
+    display: flex;
+    align-items: baseline;
+    gap: 0.7em;
+    padding-bottom: var(--sp-3);
+    border-bottom: 1px solid var(--line-soft);
+    margin-bottom: var(--sp-4);
+  }
+  .blk__n {
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    color: var(--obra-accent);
+  }
+  .blk__text p { margin-bottom: 1em; }
+  .blk__text p:last-child { margin-bottom: 0; }
+  .blk__simbolo {
+    font-family: var(--font-display);
+    font-size: var(--step-2);
+    font-style: italic;
+    line-height: 1.25;
+    margin-bottom: var(--sp-4);
+    color: var(--ink);
+  }
+
+  /* Sigue explorando */
+  .ficha__mas {
+    margin-top: var(--sp-8);
+    padding-top: var(--sp-5);
+    border-top: 1px solid var(--line);
+  }
+  .ficha__mas-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: var(--sp-6);
+  }
+  .ficha__mas-title { font-size: var(--step-3); }
+  .mas-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: var(--sp-5) var(--sp-4);
+  }
+
+  @media (max-width: 900px) {
+    .mas-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 560px) {
+    .ficha__body { margin-top: var(--sp-6); }
+    .mas-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>

@@ -1,0 +1,65 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import ObraCard from '../components/ObraCard.astro';
+
+const obras = (await getCollection('obras', ({ data }) => !data.borrador))
+  .sort((a, b) => a.data.orden - b.data.orden);
+---
+
+<Base
+  title="La colección — museofmusic"
+  description="Todas las obras del museo: cada canción, un símbolo. ¿Cuántas reconoces?"
+>
+  <section class="wrap coleccion" aria-labelledby="col-h">
+    <header class="coleccion__head">
+      <div>
+        <p class="eyebrow">Museo de canciones ilustradas</p>
+        <h1 id="col-h" class="coleccion__title">La colección</h1>
+      </div>
+      <p class="placard">{String(obras.length).padStart(2, '0')} obras</p>
+    </header>
+    <div class="grid">
+      {obras.map((o, i) => (
+        <ObraCard
+          href={`/obra/${o.id}`}
+          imagen={o.data.imagen}
+          imagenAlt={o.data.imagenAlt ?? o.data.simbolo}
+          catalogo={o.data.catalogo}
+          acento={o.data.acento}
+          eager={i < 3}
+        />
+      ))}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .coleccion { padding-top: var(--sp-7); }
+  .coleccion__head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--sp-4);
+    padding-bottom: var(--sp-5);
+    border-bottom: 1px solid var(--line);
+    margin-bottom: var(--sp-6);
+  }
+  .coleccion__title {
+    font-size: var(--step-4);
+    margin-top: var(--sp-2);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--sp-6) var(--sp-5);
+  }
+
+  @media (max-width: 900px) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 480px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>

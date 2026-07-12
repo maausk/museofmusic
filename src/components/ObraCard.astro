@@ -1,0 +1,87 @@
+---
+interface Props {
+  href: string;
+  imagen: string;
+  imagenAlt: string;
+  catalogo: string;
+  acento: string;
+  eager?: boolean;
+}
+const { href, imagen, imagenAlt, catalogo, acento, eager = false } = Astro.props;
+---
+<a class="card" href={href} style={`--obra-accent:${acento}`}>
+  <figure class="card__frame">
+    <img
+      class="card__img"
+      src={imagen}
+      alt={imagenAlt}
+      loading={eager ? 'eager' : 'lazy'}
+      decoding="async"
+    />
+    <figcaption class="card__foot">
+      <span class="card__cat">{catalogo}</span>
+      <span class="card__arrow" aria-hidden="true">→</span>
+    </figcaption>
+  </figure>
+</a>
+
+<style>
+  .card {
+    display: block;
+    color: var(--ink);
+  }
+  .card:hover { text-decoration: none; }
+
+  .card__frame {
+    margin: 0;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease), border-color 0.35s var(--ease);
+  }
+  .card:hover .card__frame,
+  .card:focus-visible .card__frame {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 40px -24px color-mix(in srgb, var(--obra-accent) 55%, transparent);
+    border-color: color-mix(in srgb, var(--obra-accent) 40%, var(--line));
+  }
+
+  .card__img {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    background: var(--paper-sink);
+  }
+
+  .card__foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--sp-3) var(--sp-4);
+    border-top: 1px solid var(--line-soft);
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+  }
+  .card__cat {
+    letter-spacing: 0.06em;
+    color: var(--ink-soft);
+    position: relative;
+    padding-left: 0.9em;
+  }
+  .card__cat::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.42em;
+    width: 0.5em;
+    height: 0.5em;
+    background: var(--obra-accent);
+    border-radius: 50%;
+  }
+  .card__arrow {
+    color: var(--ink-soft);
+    transition: transform 0.35s var(--ease), color 0.35s var(--ease);
+  }
+  .card:hover .card__arrow { transform: translateX(3px); color: var(--obra-accent); }
+</style>
