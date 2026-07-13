@@ -1,0 +1,25 @@
+---
+titulo: "María"
+autor: "Ricky Martin"
+anio: 1995
+catalogo: "MOS-013"
+orden: 13
+acento: "#FF6F61"
+imagen: "/obras/maria.webp"
+imagenAlt: "Una polilla vuela hacia la llama coral de una vela, dentro de la cual aparece la silueta de una mujer."
+simbolo: "Una polilla atraída por una llama que contiene la silueta de una mujer."
+historia: |
+  Ricky Martin publicó *A Medio Vivir*, su tercer álbum en solitario, en 1995. Hasta entonces, su carrera fuera de Menudo se había apoyado principalmente en un pop romántico bastante reconocible. El nuevo disco buscaba otra identidad: una mezcla más física y abiertamente latina, capaz de reunir influencias caribeñas, africanas, flamencas y de música de baile sin esconderlas bajo una producción internacional neutra. “María”, compuesta por Ian Blake, K. C. Porter y el letrista español Luis Gómez Escolar, fue la pieza que llevó aquel cambio más lejos. La apuesta no pareció prudente a todo el mundo. Martin ha recordado que, al escucharla, un ejecutivo de su discográfica le aseguró que había arruinado su carrera. Años después todavía contaba la anécdota con ironía: aquella supuesta despedida fue, en realidad, el comienzo de su dimensión global.
+
+  La versión incluida en el álbum ya se alejaba de la balada, pero el salto definitivo llegó cuando el DJ y productor puertorriqueño Pablo Flores la remezcló. Flores aceleró el pulso, reforzó la percusión y convirtió su mezcla de flamenco y pop latino en una pieza de baile con ecos de samba y música house. El remix no se limitó a adornar la grabación original: cambió la forma en que el público la percibía y terminó imponiéndose como su versión más conocida. Sony lanzó “María” como segundo sencillo de *A Medio Vivir* a finales de 1995; durante 1996 y 1997, las distintas ediciones en español y *spanglish* extendieron su recorrido por Europa, América Latina y otros mercados.
+
+  “María” se convirtió en el primer gran éxito internacional de Ricky Martin, varios años antes de su desembarco masivo en el mercado anglosajón. Alcanzó el número uno en numerosos países, fue uno de los sonidos inevitables del verano de 1996 en España y abrió una puerta importante para el cruce entre pop latino y música de baile que dominaría el final de la década. Su éxito tuvo algo de ajuste de cuentas: el tema que supuestamente iba a terminar con su carrera fue el que la transformó. También dejó una pequeña discusión alrededor de su significado. María se presenta oficialmente como una mujer ficticia, seductora y peligrosa, aunque durante años circuló la interpretación de que escondía una referencia a una sustancia adictiva. No existe una confirmación sólida de sus autores, por lo que esa lectura pertenece al territorio de la especulación popular, no al de los hechos.
+emocion: |
+  El centro de “María” no es una historia de amor estable, sino la fascinación por aquello que desordena la voluntad. Su protagonista reconoce el peligro y, aun así, no rompe el vínculo. Esa contradicción resulta más interesante que una simple atracción física: no estamos ante alguien engañado, sino ante alguien que participa conscientemente en su propia pérdida de control. María funciona como persona, tentación y hábito al mismo tiempo. Cuanto más evidente parece el riesgo, mayor es la fuerza que empuja hacia él.
+
+  La música convierte esa tensión en celebración. El ritmo invita a moverse y elimina cualquier distancia prudente, de modo que el oyente experimenta la misma trampa que describe la canción: sabe que existe una amenaza, pero el cuerpo ya ha decidido acercarse. Ahí está su verdad universal. Todos conocemos deseos que no necesitan ocultar sus consecuencias para seducirnos; a veces basta precisamente con que las prometan. “María” captura el instante en que la razón todavía advierte, pero ha dejado de mandar. No es una canción sobre ignorar el fuego, sino sobre verlo con claridad y avanzar hacia él.
+ilustracion: |
+  La ilustración reduce esa emoción a tres elementos: una vela oscura, una polilla y una gran llama coral. A primera vista reconocemos una escena natural y casi inevitable. El insecto vuela directamente hacia la luz, atraído por aquello que puede destruirlo. No hacen falta barrotes ni cadenas; su prisión es el deseo. La vela permanece inmóvil mientras la polilla ocupa el único punto de verdadera tensión, suspendida en el momento anterior al contacto. Todavía podría apartarse, pero toda la composición indica que no lo hará.
+
+  La segunda lectura aparece dentro de la llama. Su centro dibuja la silueta completa de una mujer de espaldas, anónima y sin rostro, como si el fuego hubiese adoptado una presencia humana. No es una víctima atrapada en la vela: es la forma que la atracción toma ante los ojos de la polilla. El coral `#FF6F61`, único acento cálido, mezcla sensualidad, energía y alarma, mientras el fondo violeta mantiene la escena luminosa sin volverla amable. Primero vemos el peligro; después descubrimos el deseo que lo hace irresistible. La polilla no se acerca a María a pesar de que arde: se acerca precisamente porque arde.
+---
