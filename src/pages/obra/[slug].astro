@@ -8,9 +8,9 @@ export async function getStaticPaths() {
     .sort((a, b) => a.data.orden - b.data.orden);
 
   return obras.map((obra, i) => {
-    // "Sigue explorando": las siguientes obras en orden de catálogo, dando la
-    // vuelta al llegar al final y excluyendo la actual. Con la colección pequeña
-    // salen todas las demás; cuando crezca, se corta a 5 y rota sola.
+    // "Sigue explorando": las siguientes obras en orden de catÃ¡logo, dando la
+    // vuelta al llegar al final y excluyendo la actual. Con la colecciÃ³n pequeÃ±a
+    // salen todas las demÃ¡s; cuando crezca, se corta a 5 y rota sola.
     // Aleatorio por build (Fisher-Yates): cada deploy rebaraja el
     // "Sigue explorando" de cada ficha. Con deploy diario = sorteo diario.
     const otras = obras.filter((_, k) => k !== i);
@@ -29,13 +29,13 @@ export async function getStaticPaths() {
 const { obra, mas } = Astro.props;
 const d = obra.data;
 
-// Los campos de texto admiten varios párrafos separados por línea en blanco.
+// Los campos de texto admiten varios pÃ¡rrafos separados por lÃ­nea en blanco.
 const parras = (t: string) => t.split(/\n\s*\n/).map((s) => s.trim()).filter(Boolean);
 ---
 
 <Base
-  title={`${d.titulo} (${d.autor}): historia y significado · museofmusic`}
-  description={`${d.simbolo.replace(/\.$/, '')}. La historia real, la emoción y el símbolo detrás de la canción de ${d.autor} (${d.anio}).`}
+  title={`${d.titulo} (${d.autor}): historia y significado Â· museofmusic`}
+  description={`${d.simbolo.replace(/\.$/, '')}. La historia real, la emociÃ³n y el sÃ­mbolo detrÃ¡s de la canciÃ³n de ${d.autor} (${d.anio}).`}
   image={d.imagen}
 >
   <script type="application/ld+json" set:html={JSON.stringify({
@@ -49,7 +49,7 @@ const parras = (t: string) => t.split(/\n\s*\n/).map((s) => s.trim()).filter(Boo
       },
       {
         '@type': 'VisualArtwork',
-        name: `${d.titulo} — ilustración simbólica`,
+        name: `${d.titulo} â€” ilustraciÃ³n simbÃ³lica`,
         description: d.simbolo,
         image: new URL(d.imagen, Astro.site).href,
         artform: 'Digital illustration',
@@ -59,7 +59,7 @@ const parras = (t: string) => t.split(/\n\s*\n/).map((s) => s.trim()).filter(Boo
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Inicio', item: new URL('/', Astro.site).href },
-          { '@type': 'ListItem', position: 2, name: 'La colección', item: new URL('/coleccion', Astro.site).href },
+          { '@type': 'ListItem', position: 2, name: 'La colecciÃ³n', item: new URL('/coleccion', Astro.site).href },
           { '@type': 'ListItem', position: 3, name: d.titulo, item: new URL(`/obra/${obra.id}`, Astro.site).href },
         ],
       },
@@ -67,10 +67,10 @@ const parras = (t: string) => t.split(/\n\s*\n/).map((s) => s.trim()).filter(Boo
   })} />
   <article class="ficha" style={`--obra-accent:${d.acento}`}>
     <div class="wrap">
-      <a class="back" href="/coleccion"><span aria-hidden="true">?</span> La colección</a>
+      <a class="back" href="/coleccion"><span aria-hidden="true">?</span> La colecciÃ³n</a>
     </div>
 
-    <!-- La ilustración, a lo grande -->
+    <!-- La ilustraciÃ³n, a lo grande -->
     <div class="wrap ficha__art-wrap">
       <figure class="ficha__art">
         <img
@@ -83,12 +83,12 @@ const parras = (t: string) => t.split(/\n\s*\n/).map((s) => s.trim()).filter(Boo
       <p class="placard ficha__cat">{d.catalogo}</p>
     </div>
 
-    <!-- Bloque 1: la solución -->
+    <!-- Bloque 1: la soluciÃ³n -->
     <header class="wrap ficha__id">
       <h1 class="ficha__title">{d.titulo}</h1>
       <p class="ficha__meta">
         <span>{d.autor}</span>
-        <span class="dot" aria-hidden="true">·</span>
+        <span class="dot" aria-hidden="true">Â·</span>
         <span>{d.anio}</span>
       </p>
     </header>
@@ -102,23 +102,23 @@ const parras = (t: string) => t.split(/\n\s*\n/).map((s) => s.trim()).filter(Boo
 
       <!-- Bloque 3 -->
       <section class="blk" aria-labelledby="h-emocion">
-        <h2 id="h-emocion" class="blk__h"><span class="blk__n">02</span> La emoción</h2>
+        <h2 id="h-emocion" class="blk__h"><span class="blk__n">02</span> La emociÃ³n</h2>
         <div class="blk__text">{parras(d.emocion).map((p) => <p>{p}</p>)}</div>
       </section>
 
       <!-- Bloque 4 -->
       <section class="blk" aria-labelledby="h-ilustracion">
-        <h2 id="h-ilustracion" class="blk__h"><span class="blk__n">03</span> La ilustración: el símbolo de {d.titulo}</h2>
+        <h2 id="h-ilustracion" class="blk__h"><span class="blk__n">03</span> La ilustraciÃ³n: el sÃ­mbolo de {d.titulo}</h2>
         <p class="blk__simbolo">{d.simbolo}</p>
         <div class="blk__text">{parras(d.ilustracion).map((p) => <p>{p}</p>)}</div>
       </section>
     </div>
 
-    <!-- Sigue explorando: enlaza a otras obras (retención + enlazado interno SEO) -->
+    <!-- Sigue explorando: enlaza a otras obras (retenciÃ³n + enlazado interno SEO) -->
     <section class="wrap ficha__mas" aria-labelledby="mas-h">
       <header class="ficha__mas-head">
         <h2 id="mas-h" class="ficha__mas-title">Sigue explorando</h2>
-        <p class="placard">¿Y estas?</p>
+        <p class="placard">Â¿Y estas?</p>
       </header>
       <div class="mas-grid">
         {mas.map((o) => (
