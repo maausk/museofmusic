@@ -1,0 +1,129 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base
+  title="Obra no encontrada — museofmusic"
+  description="Esta página no existe en el museo."
+>
+  <section class="wrap nf">
+    <figure class="nf__frame" aria-hidden="true">
+      <div class="nf__empty">
+        <span class="nf__code">404</span>
+      </div>
+      <figcaption class="nf__foot">
+        <span class="placard nf__cat">MOS-404</span>
+        <span class="placard">obra no encontrada</span>
+      </figcaption>
+    </figure>
+
+    <div class="nf__copy">
+      <p class="eyebrow">Sala equivocada</p>
+      <h1 class="nf__title">Esta obra no está<br />en la colección.</h1>
+      <p class="nf__lead">
+        Puede que el enlace esté mal, que la pieza se haya movido o que aún
+        no exista. En un museo que crece cada día, hasta los huecos son
+        provisionales.
+      </p>
+      <div class="nf__actions">
+        <a class="btn" href="/coleccion">Ver la colección <span aria-hidden="true">?</span></a>
+        <a class="btn btn--ghost" href="/">Volver al inicio</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .nf {
+    display: grid;
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+    gap: clamp(var(--sp-6), 5vw, var(--sp-8));
+    align-items: center;
+    padding-block: var(--sp-8);
+    min-height: min(70vh, 640px);
+  }
+
+  .nf__frame {
+    margin: 0;
+    max-width: 340px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--paper);
+  }
+  .nf__empty {
+    aspect-ratio: 4 / 5;
+    background:
+      repeating-linear-gradient(45deg,
+        var(--paper-sink) 0, var(--paper-sink) 1px,
+        transparent 1px, transparent 12px);
+    display: grid;
+    place-items: center;
+  }
+  .nf__code {
+    font-family: var(--font-display);
+    font-size: clamp(3rem, 8vw, 5rem);
+    color: var(--line);
+    font-variation-settings: 'opsz' 144, 'SOFT' 40, 'WONK' 1;
+  }
+  .nf__foot {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--sp-3) var(--sp-4);
+    border-top: 1px solid var(--line-soft);
+  }
+  .nf__cat {
+    position: relative;
+    padding-left: 0.9em;
+  }
+  .nf__cat::before {
+    content: '';
+    position: absolute; left: 0; top: 0.42em;
+    width: 0.5em; height: 0.5em; border-radius: 50%;
+    background: var(--accent);
+  }
+
+  .nf__title {
+    font-size: var(--step-4);
+    margin-top: var(--sp-2);
+  }
+  .nf__lead {
+    max-width: 44ch;
+    margin-top: var(--sp-4);
+    font-size: var(--step-1);
+    color: var(--ink-soft);
+  }
+  .nf__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-3);
+    margin-top: var(--sp-5);
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.7em 1.2em;
+    background: var(--ink);
+    color: var(--paper);
+    border-radius: var(--radius);
+    font-size: var(--step--1);
+    letter-spacing: 0.02em;
+    transition: background 0.3s var(--ease);
+  }
+  .btn:hover { text-decoration: none; background: var(--accent-ink); }
+  .btn--ghost {
+    background: transparent;
+    color: var(--ink);
+    border: 1px solid var(--line);
+  }
+  .btn--ghost:hover { background: var(--paper-sink); }
+
+  @media (max-width: 720px) {
+    .nf {
+      grid-template-columns: 1fr;
+      min-height: 0;
+      padding-block: var(--sp-7);
+    }
+    .nf__frame { max-width: 260px; }
+  }
+</style>
