@@ -5,7 +5,7 @@ anio: 1999
 catalogo: "MOS-007"
 orden: 7
 acento: "#E0922E"
-imagen: "/obras/19-dias.webp"
+imagen: "/obras/19-dias-y-500-noches.webp"
 imagenAlt: "Un vaso de güisqui iluminado en la oscuridad; su sombra proyecta la silueta de una pareja abrazada frente a frente."
 simbolo: "Un vaso de güisqui encendido en plena noche, cuya sombra dibuja a una pareja abrazada."
 historia: |
