@@ -1,0 +1,25 @@
+---
+titulo: "Stairway to Heaven"
+autor: "Led Zeppelin"
+anio: 1971
+catalogo: "MOS-012"
+orden: 12
+acento: "#D89A2B"
+imagen: "/obras/stairway-to-heaven.webp"
+imagenAlt: "Una escalera de monedas doradas se fragmenta antes de alcanzar una puerta luminosa suspendida en la oscuridad."
+simbolo: "Una escalera de monedas incapaz de alcanzar la puerta que promete trascendencia."
+historia: |
+  “Stairway to Heaven” apareció el 8 de noviembre de 1971 en el cuarto álbum de Led Zeppelin, un disco publicado deliberadamente sin título oficial y conocido con el tiempo como *Led Zeppelin IV*. Jimmy Page compuso la música y Robert Plant escribió el texto. Page llevaba tiempo reuniendo fragmentos y quería construir una pieza que creciera por etapas, desde una apertura acústica casi íntima hasta un desenlace eléctrico de máxima intensidad. La forma no era un adorno: la canción debía avanzar como un ascenso. Buena parte tomó cuerpo en Headley Grange, una casa de campo de Hampshire donde el grupo trabajó con el estudio móvil de los Rolling Stones. Plant desarrolló allí gran parte de sus imágenes mientras Page tocaba la secuencia que sostenía la composición.
+
+  La grabación reunió varias identidades de Led Zeppelin dentro de una misma obra. Page alternó guitarras acústicas, eléctricas de seis y doce cuerdas; John Paul Jones añadió flautas dulces y teclados; John Bonham esperó varios minutos antes de introducir una batería que cambia por completo el peso de la canción. El célebre solo de Page se completó después en Island Studios, en Londres. Antes incluso de que el álbum llegara a las tiendas, Led Zeppelin estrenó la pieza el 5 de marzo de 1971 en el Ulster Hall de Belfast. La respuesta fue sorprendentemente tibia: el público estaba esperando canciones conocidas y todavía no sabía que acababa de escuchar el futuro centro de los conciertos del grupo.
+
+  Atlantic Records quiso publicarla como sencillo, pero la banda y su representante Peter Grant se negaron a recortar sus más de ocho minutos. Aun sin un lanzamiento comercial convencional, las emisoras de FM estadounidenses la convirtieron en un fenómeno y muchos oyentes compraron el álbum para conseguirla. Décadas después, su introducción originó una disputa legal: en 2014, el administrador del legado de Randy Wolfe, guitarrista de Spirit, alegó que procedía de “Taurus”, una composición de 1967. Un jurado falló a favor de Led Zeppelin en 2016. Tras varias apelaciones, el Tribunal de Apelaciones del Noveno Circuito confirmó el veredicto en 2020 y el Tribunal Supremo de Estados Unidos rechazó revisar el caso. La canción conservó oficialmente la autoría de Page y Plant, pero el proceso reabrió un debate enorme sobre qué partes del lenguaje musical pueden pertenecer a alguien.
+emocion: |
+  La canción ha recibido interpretaciones espirituales, místicas e incluso oscuras, pero su ambigüedad es precisamente parte de su resistencia. En su núcleo aparece una sospecha: confundir el valor de las cosas con el valor de la vida. La acumulación promete acceso, seguridad y una ruta directa hacia algo superior, aunque la verdadera transformación exige una elección interior que ninguna posesión puede sustituir. El deseo de ascender no es ridiculizado; lo que se cuestiona es la idea de que exista un atajo que pueda comprarse.
+
+  Esa tensión sigue siendo reconocible porque no pertenece únicamente a una época de excesos del rock. Todos construimos alguna escalera: dinero, prestigio, trabajo, aprobación o cualquier otra promesa de que la siguiente conquista resolverá lo que la anterior dejó intacto. La canción avanza con una confianza cada vez mayor, pero debajo mantiene una pregunta incómoda: ¿hacia dónde estamos subiendo realmente? Su emoción central mezcla anhelo y desengaño. Hay una luz al fondo, sí, pero alcanzarla requiere distinguir entre avanzar y limitarse a acumular peldaños.
+ilustracion: |
+  La imagen presenta primero un camino ascendente de monedas doradas. Las piezas más cercanas aparecen sólidas, ordenadas y suficientemente anchas para sugerir escalones. En lo alto espera una puerta arqueada inundada de luz cálida, aislada en un espacio oscuro y sin paredes visibles. La composición parece ofrecer una ruta clara: cada moneda promete acercarnos un poco más a la entrada. El dorado `#D89A2B` une riqueza y resplandor para que, durante un instante, ambas cosas parezcan formar parte de la misma promesa.
+
+  La segunda lectura surge al recorrer visualmente la escalera. Conforme se aproxima a la puerta, su estructura pierde consistencia: las monedas se separan, se reducen y finalmente se rompen en fragmentos. El trayecto no llega a tocar el umbral. Esa interrupción cambia el sentido de todo lo anterior. Lo que parecía una construcción firme era una ilusión sostenida por la perspectiva; cuanto más cerca estaba de aquello que pretendía alcanzar, menos útil resultaba. La puerta permanece abierta y luminosa, pero el dinero no puede completar la distancia. La imagen no niega la posibilidad de llegar: niega que esa escalera pueda llevarnos.
+---
