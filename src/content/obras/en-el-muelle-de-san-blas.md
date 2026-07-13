@@ -1,0 +1,25 @@
+---
+titulo: "En el muelle de San Blas"
+autor: "Maná"
+anio: 1997
+catalogo: "MOS-015"
+orden: 15
+acento: "#E8B86A"
+imagen: "/obras/en-el-muelle-de-san-blas.webp"
+imagenAlt: "Un vestido de novia vacío iluminado en la oscuridad proyecta una larga sombra con forma de ancla."
+simbolo: "Un vestido de novia vacío cuya sombra se ha convertido en un ancla."
+historia: |
+  “En el muelle de San Blas” forma parte de *Sueños Líquidos*, el quinto álbum de estudio de Maná, publicado en octubre de 1997. Fher Olvera y Álex González compusieron la canción y produjeron el disco, grabado entre estudios de California y una unidad móvil instalada en Puerto Vallarta. El lugar no fue una elección decorativa: el grupo quería que el agua atravesara el álbum como paisaje y como estado emocional. Aquellas sesiones dieron forma a uno de los trabajos que consolidaron internacionalmente a Maná. En 1999, *Sueños Líquidos* obtuvo el Grammy al mejor álbum latino de rock o música alternativa. La canción fue lanzada como sencillo en 1998 y terminó convirtiéndose en una de las narraciones más reconocibles del rock en español.
+
+  Sobre su origen conviven dos versiones que a menudo se presentan como si fueran una sola. La más cercana a una fuente directa es la contada por el propio Fher Olvera. Según su recuerdo, conoció en Puerto Vallarta la historia de una mujer mayor que barría las calles y que cada domingo se vestía de blanco para acudir al pequeño muelle de Playa Los Muertos. Allí esperaba a un hombre que había partido en barco muchos años antes y nunca había regresado. Fher trasladó el relato a San Blas al escribir la canción. No dio un nombre confirmado para aquella mujer ni estableció las fechas y detalles precisos que después se incorporarían a la leyenda. Su testimonio permite afirmar que hubo una inspiración real, pero también que el escenario de la obra fue transformado por razones creativas.
+
+  La versión popular identifica a la protagonista con Rebeca Méndez Jiménez, conocida como la mujer del muelle de San Blas. El relato más difundido sostiene que en 1971 perdió en el mar a su prometido, un pescador llamado Manuel, y que durante décadas regresó vestida de novia para esperarlo. Rebeca murió en 2012; sus cenizas fueron llevadas al mar y su figura quedó ligada públicamente al puerto, donde se levantó una estatua en su memoria. Sin embargo, testimonios familiares y las propias palabras de Fher introducen contradicciones sobre el lugar, las relaciones de Rebeca y el encuentro con el compositor. No es posible asegurar que ella fuera la mujer de Puerto Vallarta que inspiró directamente la canción. Lo que sí está documentado es que la cultura popular unió ambos relatos hasta volverlos inseparables: una mujer real inspiró la obra y otra acabó encarnándola para todo un continente.
+emocion: |
+  La canción habla de una ausencia, pero su verdadera herida está en el tiempo. Esperar comienza como una decisión amorosa: reservar un lugar para quien todavía podría regresar. Poco a poco, esa posibilidad desaparece y el gesto deja de tener un final imaginable. La protagonista no solo permanece junto al mar; conserva intacto el último momento en que su vida parecía encaminada hacia un futuro compartido. Todo cambia alrededor de ella excepto la promesa a la que sigue aferrada.
+
+  Ahí la fidelidad se vuelve más ambigua. Puede parecer una forma extrema de amor, pero también una prisión construida con esperanza. Cuando la espera ocupa todos los días, termina sustituyendo a la persona que espera: ya no se sabe quién sería ella sin aquella ausencia. Esa emoción resulta universal incluso lejos de un muelle. A veces permanecemos ligados a una relación, una pérdida o una versión antigua de nosotros mismos porque abandonarla implicaría aceptar que el tiempo no va a devolvernos lo que éramos. La espera protege del final, pero cobra a cambio la vida que continúa.
+ilustracion: |
+  La ilustración elimina el mar, el muelle y la figura literal de la protagonista. En el centro aparece únicamente un vestido de novia vacío, iluminado por una luz cálida en un espacio azul grisáceo casi infinito. El encaje y el tono envejecido sugieren que no acaba de ser abandonado: lleva demasiado tiempo esperando a un cuerpo que ya no está. Esa es la primera lectura, el futuro prometido que quedó preparado y nunca llegó a comenzar. El vestido se mantiene erguido sin persona ni soporte visible, como si la promesa fuera lo único que aún lo sostiene.
+
+  La segunda lectura está en la sombra. Al alejarse del vestido, la silueta deja de copiar su forma y se convierte en una gran ancla oscura. El objeto que debería representar estabilidad revela aquí su reverso: no protege, inmoviliza. El color `#E8B86A` concentra la calidez en el vestido, mientras el ancla pertenece al mismo azul frío que lo rodea. Vestido y sombra no son dos objetos separados, sino dos estados de una misma espera: lo que comenzó como ilusión terminó adquiriendo un peso imposible de arrastrar. Nadie la retiene desde fuera; es su propia promesa la que la mantiene amarrada al pasado.
+---
