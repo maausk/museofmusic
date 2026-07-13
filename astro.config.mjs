@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 
 // Ajusta `site` a tu dominio real antes de desplegar (sitemap, canonical, og).
 export default defineConfig({
@@ -7,4 +8,5 @@ export default defineConfig({
   build: {
     format: 'directory',
   },
+  integrations: [sitemap()],
 });
