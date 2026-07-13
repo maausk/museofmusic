@@ -59,33 +59,34 @@ const total = obras.length;
         />
       ))}
     </div>
+    <script is:inline>
+      // Sala rotativa: baraja y deja 6 ANTES del primer pintado (evita CLS).
+      (() => {
+        const g = document.currentScript.previousElementSibling;
+        if (!g || !g.classList.contains('grid')) return;
+        const c = Array.from(g.children);
+        for (let i = c.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [c[i], c[j]] = [c[j], c[i]];
+        }
+        c.forEach((el) => g.appendChild(el));
+        c.slice(6).forEach((el) => el.remove());
+      })();
+    </script>
     <div class="coleccion__more">
       <a class="btn btn--ghost" href="/coleccion">Ver toda la colección <span aria-hidden="true">→</span></a>
     </div>
   </section>
 
   <script>
-    // 1) Sala rotativa: baraja las obras en cada visita y muestra 6.
-    //    El HTML lleva todas (enlazado interno para SEO); lazy-loading evita
-    //    descargar imágenes no visibles, así que el recorte es solo visual.
+    // Aparición por líneas al hacer scroll (el barajado ya ocurrió inline).
     const grid = document.querySelector('.grid');
-    if (grid) {
-      const all = Array.from(grid.children);
-      for (let i = all.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [all[i], all[j]] = [all[j], all[i]];
-      }
-      all.forEach((c) => grid.appendChild(c));
-      all.slice(6).forEach((c) => c.remove());
-    }
-
-    // 2) Aparición por líneas al hacer scroll. Sin JS, la cuadrícula se ve normal.
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (grid && !reduce && 'IntersectionObserver' in window) {
       const cards = Array.from(grid.children);
       // Escalonado por columna dentro de cada fila
       const cols = () => getComputedStyle(grid).gridTemplateColumns.split(' ').length;
-      cards.forEach((c, i) => c.style.setProperty('--reveal-delay', `${(i % cols()) * 0.09}s`));
+      cards.forEach((c, i) => c.style.setProperty('--reveal-delay', `${(i % cols()) * 0.06}s`));
       grid.classList.add('reveal-ready');
       const io = new IntersectionObserver((entries) => {
         for (const e of entries) {
@@ -218,7 +219,7 @@ const total = obras.length;
   .grid.reveal-ready > :global(*) {
     opacity: 0;
     transform: translateY(18px);
-    transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
+    transition: opacity 0.4s var(--ease), transform 0.4s var(--ease);
     transition-delay: var(--reveal-delay, 0s);
   }
   .grid.reveal-ready > :global(*.in) {
