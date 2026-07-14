@@ -5,7 +5,7 @@ anio: 1973
 catalogo: "MOS-017"
 orden: 17
 acento: "#D96C75"
-imagen: "/obras/time.webp"
+imagen: "/obras/time-pink-floyd.webp"
 imagenAlt: "Una maleta coral preparada para partir proyecta una enorme sombra con forma de árbol adulto y profundas raíces."
 simbolo: "Una maleta lista para partir cuya sombra se ha convertido en un árbol profundamente enraizado."
 historia: |
