@@ -1,0 +1,25 @@
+---
+titulo: "Gimme Shelter"
+autor: "The Rolling Stones"
+anio: 1969
+catalogo: "MOS-021"
+orden: 21
+acento: "#E89B3A"
+imagen: "/obras/gimme-shelter.webp"
+imagenAlt: "Un paraguas negro protege una pequeña vela encendida mientras la lluvia se transforma en balas antes de alcanzarlo."
+simbolo: "Una vela protegida por un paraguas frente a una lluvia que se convierte en munición."
+historia: |
+  «Gimme Shelter» abre «Let It Bleed», el álbum que The Rolling Stones publicó a finales de 1969, y parece capturar el momento exacto en que la década de las flores empezó a mostrar los dientes. La compusieron Mick Jagger y Keith Richards bajo la producción de Jimmy Miller. Richards encontró el germen musical mientras estaba junto a una ventana en Londres y una tormenta repentina oscurecía el cielo. Abajo, la gente corría buscando dónde cubrirse. Aquella imagen cotidiana fue creciendo hasta convertirse en algo mucho mayor: no una canción sobre el mal tiempo, sino sobre una sociedad que percibe la violencia demasiado cerca. Jagger relacionó después su atmósfera con las imágenes de Vietnam, las protestas y la tensión que entraban diariamente en los hogares a través de la televisión.
+
+  La base se grabó en los Olympic Studios de Londres durante 1969; las voces adicionales llegaron meses después, cuando el álbum se estaba terminando en Los Ángeles. Jimmy Miller imaginó que la canción necesitaba una voz femenina y Jack Nitzsche llamó de madrugada a Merry Clayton, cantante de góspel y soul. Clayton estaba embarazada de unos cuatro meses y ya se había acostado. Acudió prácticamente con la ropa de dormir bajo un abrigo y, tras escuchar lo que debía interpretar, realizó unas pocas tomas de una intensidad extraordinaria. Su voz llega a quebrarse por el esfuerzo y en la grabación puede percibirse la reacción espontánea de Jagger desde el estudio. En los créditos originales escribieron por error su nombre como «Mary».
+
+  Clayton sufrió un aborto espontáneo poco después. Ella misma ha contado que ambos recuerdos quedaron dolorosamente asociados, pero no existe una base médica documentada para afirmar que la sesión provocara la pérdida. La precisión importa porque la realidad ya resulta suficientemente dura sin añadirle una causalidad dudosa. La canción apareció en las primeras ediciones del disco con la grafía «Gimmie Shelter», corregida posteriormente al título hoy aceptado. No se lanzó entonces como sencillo, aunque terminó convertida en una de las grabaciones esenciales del grupo. También conviene separar otro mito: fue creada antes del desastroso concierto de Altamont del 6 de diciembre de 1969. El documental «Gimme Shelter» adoptó después su nombre y unió para siempre la canción con aquel final violento del sueño contracultural.
+emocion: |
+  Hay canciones que describen una catástrofe y otras que capturan el segundo anterior, cuando aún es posible imaginar que quizá no suceda. «Gimme Shelter» pertenece a las segundas. Su tensión nace de escuchar cómo el peligro se aproxima sin llegar a contemplarlo por completo. El mundo conocido sigue en pie, pero ya no ofrece garantías. Una puerta, una pared o un techo pueden proteger del clima; frente a la violencia humana, cualquier refugio parece provisional.
+
+  Esa sensación no pertenece únicamente a una guerra ni a 1969. Aparece cuando una noticia rompe nuestra idea de normalidad, cuando la calle familiar deja de parecer segura o cuando tememos que algo exterior alcance a quienes queremos. En ese instante no buscamos una solución perfecta: buscamos un espacio mínimo donde conservar lo frágil. Puede ser una casa, un abrazo o la presencia de alguien que haga soportable el miedo. La canción enfrenta dos fuerzas muy simples: todo lo que puede destruirse y la decisión casi instintiva de protegerlo. Su esperanza no es ingenua; sabe perfectamente qué hay al otro lado de la puerta.
+ilustracion: |
+  La escena utiliza tres objetos y ninguna figura humana. Al primer vistazo vemos un paraguas negro abierto en medio de un espacio azul grisáceo. Debajo, una pequeña vela encendida ocupa el centro exacto del refugio. La escala convierte la llama en algo vulnerable, pero también obstinado: es diminuta frente al espacio y, aun así, constituye el único punto cálido de toda la composición. El paraguas parece suficiente para detener la lluvia, una protección doméstica y reconocible frente a una amenaza aparentemente natural.
+
+  La segunda lectura se descubre al seguir la caída de las gotas. En la parte alta todavía son agua; al acercarse al paraguas se alargan, endurecen y terminan convertidas en balas. No vemos disparos, impactos ni destrucción. El peligro está suspendido en el instante previo, como en la canción. El paraguas continúa cumpliendo su función, pero su fragilidad resulta de pronto evidente: fue diseñado para una tormenta, no para el mundo en que ha empezado a llover munición. Bajo él, la vela permanece encendida. El refugio quizá no pueda detenerlo todo, pero todavía guarda una luz que merece ser defendida.
+---
