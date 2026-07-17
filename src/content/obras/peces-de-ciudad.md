@@ -1,0 +1,25 @@
+---
+titulo: "Peces de ciudad"
+autor: "Joaquín Sabina"
+anio: 2002
+catalogo: "MOS-026"
+orden: 26
+acento: "#D87355"
+imagen: "/obras/peces-de-ciudad.webp"
+imagenAlt: "Una brújula circular muy desgastada contiene un camino metálico en espiral y una aguja doblada que conserva un débil resplandor coral."
+simbolo: "Una brújula agotada cuyas direcciones forman un recorrido cerrado y cuya aguja ya no puede señalar ningún destino."
+historia: |
+  «Peces de ciudad» nació lejos de cualquiera de las ciudades que terminarían habitando su imaginario. Pancho Varona sitúa su origen en Lima, durante una estancia de la banda en el Hotel Bolívar. Una indisposición lo había dejado en la habitación mientras el resto salía y, para combatir el aburrimiento, tomó la guitarra. Comenzó a tocar unos acordes con aire de vals y pensó en construir algo que recogiera la intimidad narrativa de «To Ramona», de Bob Dylan, sin copiarla. Cuando encontró el tono, fue a buscar a Joaquín Sabina. Trabajaron juntos durante la noche y acabaron viendo amanecer desde el balcón del hotel. Varona compuso la música; Sabina escribió la letra. En los créditos figuran ambos como autores.
+
+  La canción tuvo una vida pública poco habitual: antes de que Sabina editara su propia interpretación, llegó a la voz de Ana Belén. Ella la publicó en mayo de 2001 y la convirtió en el tema titular de un álbum de canciones inéditas. Fue su primer sencillo, obtuvo una recepción inmediata y acabó siendo una de las piezas más representativas de su repertorio. Esa primera grabación fijó una narradora femenina y una interpretación contenida, elegante, casi cinematográfica. El disco alcanzó el doble platino y recibió una nominación al Grammy Latino. Por eso mucha gente conoció «Peces de ciudad» como una canción de Ana Belén antes de escucharla cantada por su autor.
+
+  Sabina incorporó su versión a *Dímelo en la calle*, publicado por BMG en octubre de 2002, después del grave problema de salud que lo había apartado temporalmente de la actividad. Su grabación cambia la perspectiva del relato y lo acerca al territorio biográfico asociado al cantante, aunque sería un error reducirla a una confesión literal. Antonio García de Diego recuerda que Sabina se quebró durante la toma y la considera una de las mejores uniones entre texto y música de su carrera. También ha contado que el propio Sabina no sabía explicar con precisión qué historia concreta estaba narrando, pero reconocía haber encontrado exactamente aquello que deseaba contar. Esa indefinición no es un vacío: es parte de su fuerza. La canción funciona como memoria personal y, a la vez, como la biografía imaginaria de cualquiera que haya confundido movimiento con libertad.
+emocion: |
+  Hay canciones sobre marcharse y canciones sobre volver. Esta habla de algo más incómodo: descubrir que ninguna de las dos cosas garantiza una salida. Su mundo está lleno de viajes, referencias culturales, ciudades enormes y promesas de una vida distinta, pero toda esa amplitud termina produciendo una sensación de encierro. Cuanto más extenso parece el mapa, más pequeño se vuelve el lugar interior desde el que se contempla. La experiencia no conduce a la sabiduría serena, sino a una lucidez cansada: después de conocer suficientes lugares y suficientes amores, uno aprende que también puede llevar consigo aquello de lo que intentaba escapar.
+
+  Su melancolía no es pasiva ni sentimental. Nace del desgaste de quien alguna vez creyó de verdad en la aventura y ahora reconoce el mecanismo de las despedidas antes de que sucedan. Todavía queda deseo de movimiento, pero ya no inocencia. El verdadero desengaño no consiste en que el mundo sea pequeño, sino en comprobar que incluso un mundo inmenso puede quedarse sin refugios. «Peces de ciudad» convierte esa fatiga en una emoción compartida: la de seguir buscando una dirección cuando todas las rutas conocidas parecen regresar al mismo punto.
+ilustracion: |
+  La ilustración evita representar peces, calles o episodios concretos. En su lugar aparece una sola brújula, grande, frontal y gastada. Al primer vistazo conserva la promesa universal del viaje: un instrumento creado para orientarse, escoger un rumbo y avanzar. Sus arañazos y su metal envejecido indican que no es una brújula decorativa. Ha sido utilizada durante mucho tiempo. En el centro sobrevive una aguja coral, el único resto cálido de la composición, pero su luz es débil y su forma ya no mantiene la firmeza de una dirección.
+
+  La segunda lectura cambia por completo el objeto. Los puntos que deberían abrir el espacio hacia fuera se curvan hacia el interior y se unen en una espiral cerrada. Ningún rumbo abandona la brújula. Además, la aguja aparece doblada, roma y vencida contra el borde, como si hubiera girado tantas veces que finalmente hubiera renunciado a señalar. No hay una explosión, una herida ni una catástrofe visible; solo desgaste acumulado. La brújula todavía contiene todas las direcciones, pero ya no conduce a ninguna parte. Viajar fue su promesa; regresar siempre al mismo lugar es su verdad.
+---
