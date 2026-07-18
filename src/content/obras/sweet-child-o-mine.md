@@ -9,30 +9,17 @@ imagen: "/obras/sweet-child-o-mine.webp"
 imagenAlt: "La silueta de una persona guarda en su interior un prado soleado con flores bajo un cielo de amanecer."
 simbolo: "Una silueta que contiene dentro un prado luminoso al amanecer."
 historia: |
-  La escribió Axl Rose para Erin Everly, y nació casi de un accidente: un
-  punteo que Slash tocaba como ejercicio de calentamiento, del que se rió sin
-  imaginar que sería uno de los riffs más reconocibles del rock. Publicada en
-  1987 en el debut de Guns N' Roses, se convirtió en su único número uno en
-  Estados Unidos.
+  «Sweet Child o' Mine» nació en 1986 dentro de la casa de Griffith Park, Los Ángeles, donde convivían y ensayaban los miembros de Guns N' Roses. Durante años se ha contado que Slash tocaba su célebre figura inicial como un simple ejercicio de calentamiento y que incluso se burlaba de ella. El propio guitarrista corrigió esa versión en 2022: no estaba calentando, sino probando una combinación de notas hasta encontrar un riff que le resultó interesante. Sí lo describió en otras ocasiones como una melodía casi circense y reconoció que al principio no la consideró una gran propuesta. Izzy Stradlin empezó a construir acordes detrás de ella, Duff McKagan y Steven Adler completaron la base, y Axl Rose escuchó desde otra habitación cómo aquel juego adquiría forma de canción. El tema quedó acreditado a los cinco integrantes de la formación clásica, una buena medida de lo colectivo que fue el hallazgo.
 
-  Su rareza es lo que la hizo eterna: una de las bandas más duras y salvajes
-  de su época firmando, casi sin querer, una canción de amor de una ternura
-  desarmante. La bestia escribiendo una nana.
+  Axl llevaba tiempo trabajando en un poema dedicado a Erin Everly, su pareja entonces e hija de Don Everly, integrante de The Everly Brothers. Al escuchar la música recordó ese material y encontró el lugar donde utilizarlo. Para un compositor asociado a la rabia, la violencia y el desarraigo, aquella mirada amorosa resultaba excepcional. Rose explicó que era la primera canción positiva de amor que había escrito y relacionó algunas de sus imágenes con recuerdos tempranos de belleza y con el deseo infantil de escapar de una realidad difícil. No se trataba únicamente de admirar a Erin: la persona amada parecía devolverle el acceso a una inocencia que él creía perdida. La composición fue creciendo durante los ensayos y las maquetas. Incluso la sección final nació de la incertidumbre sobre cómo continuar la estructura; una duda práctica terminó convertida en el momento de mayor desorientación emocional de la canción.
+
+  Mike Clink produjo la grabación definitiva para *Appetite for Destruction*, publicado por Geffen en julio de 1987. El álbum no explotó de inmediato. Guns N' Roses tenía reputación en los clubes de Los Ángeles, pero su mezcla de crudeza, melodía y caos tardó meses en encontrar una audiencia masiva. «Sweet Child o' Mine» fue lanzada como sencillo en Estados Unidos en junio de 1988. Su vídeo, dirigido por Nigel Dick y rodado como una actuación informal rodeada por personas cercanas a la banda, recibió una enorme exposición en MTV. En septiembre la canción llegó al número uno del *Billboard Hot 100* y continúa siendo el único sencillo de Guns N' Roses que ha alcanzado esa posición. El éxito transformó también al álbum, que terminó convertido en uno de los debuts más vendidos de la historia del rock. La ironía es perfecta: la banda que representaba el lado más peligroso de Sunset Strip conquistó al gran público mostrando su rincón más vulnerable.
 emocion: |
-  Es la ternura que aparece donde no se la espera. La sensación de mirar a
-  alguien y ver, de golpe, un día entero de buen tiempo: la persona amada
-  como refugio luminoso, el sitio al que uno vuelve cuando el mundo pesa.
+  La canción suele recordarse como una declaración de amor luminosa, pero debajo de su ternura existe una necesidad más profunda. La persona amada no es solo alguien deseado: funciona como acceso a un tiempo anterior al daño, cuando la belleza podía contemplarse sin sospecha. Amar significa reconocer en otro ser humano un lugar donde bajar la guardia. Esa sensación explica que la canción resulte tan cálida y, al mismo tiempo, conserve una pequeña inquietud. Quien encuentra su refugio en otra persona descubre también cuánto podría perder si ese refugio desaparece.
 
-  La emoción de que hasta lo más áspero se ablanda ante quien quiere. Un
-  cariño tan grande que asusta un poco, porque uno sabe lo que tiene y lo que
-  perdería.
+  Esa mezcla evita que la pieza sea una simple balada sentimental. La dulzura procede de alguien que no parece acostumbrado a ella y que, por eso, la vive con asombro. Guns N' Roses no abandona su intensidad para cantar al amor; dirige toda esa intensidad hacia la fragilidad. El resultado habla de una experiencia universal: hay personas cuya presencia modifica el clima interior. No resuelven el pasado ni eliminan el miedo, pero hacen visible una versión del mundo en la que descansar vuelve a parecer posible. La ternura no domestica a la parte áspera; le ofrece, quizá por primera vez, un paisaje donde no necesita defenderse.
 ilustracion: |
-  La silueta es el ancla: una figura reconocible, la persona a la que se le
-  canta. Al primer golpe, un contorno en calma.
+  La ilustración presenta al primer vistazo el perfil oscuro de una mujer anónima. La cabeza está ligeramente inclinada y el cabello recogido, sin rasgos que permitan asociarla con Erin Everly ni con ninguna persona concreta. El cuerpo ocupa casi toda la composición, rodeado por un fondo azul grisáceo igualmente contenido. Esa oscuridad exterior evita convertir la imagen en una postal romántica: la figura permanece silenciosa, casi inaccesible, como alguien cuya verdadera dimensión solo puede conocerse cuando la mirada atraviesa la superficie.
 
-  La segunda lectura está dentro. La silueta no está vacía ni oscura: guarda
-  un prado soleado, flores y un cielo de amanecer. Lo que ese cariño ve al
-  mirar a la persona amada no es un cuerpo, es un paisaje entero de luz. El
-  amor pintado no como quien lo siente, sino como lo que hace ver: dentro de
-  quien quieres cabe un día de sol.
+  La segunda lectura aparece dentro de su torso. Allí se abre un paisaje cálido formado por un prado cubierto de pequeñas flores, árboles lejanos y un sol bajo que ilumina el horizonte. No es un dibujo estampado sobre el cuerpo, sino una abertura hacia otro mundo. El ámbar `#E6A93A` concentra toda la calidez de la obra dentro de la silueta y transforma a la persona amada en memoria, refugio y promesa de buen tiempo. La imagen no muestra directamente lo que ella siente; representa lo que Axl cree recuperar cuando la contempla. Desde fuera vemos una figura en sombra. Desde el amor, dentro de esa misma figura cabe una mañana entera. La persona no está iluminada por el paisaje: es ella quien lo contiene.
 ---
