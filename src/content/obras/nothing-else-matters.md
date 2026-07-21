@@ -6,27 +6,20 @@ catalogo: "MOS-005"
 orden: 5
 acento: "#D9A24A"
 imagen: "/obras/nothing-else-matters.webp"
-imagenAlt: "Una grieta dorada que recorre un muro oscuro, al estilo del kintsugi japonés."
-simbolo: "Una grieta reparada en oro, al estilo kintsugi."
+imagenAlt: "Una grieta dorada atraviesa verticalmente una superficie oscura, evocando una reparación de kintsugi."
+simbolo: "Una fractura reparada con oro que convierte la vulnerabilidad en la parte más valiosa de la pieza."
 historia: |
-  Empezó como algo privado. Su autor la escribió mientras hablaba por teléfono
-  con alguien que echaba de menos, y al principio no quería ni enseñarla: era
-  demasiado personal para una banda conocida por su dureza.
+  «Nothing Else Matters» empezó lejos de la idea que el público tenía de Metallica. James Hetfield comenzó a tocar su arpegio mientras hablaba por teléfono y solo tenía una mano libre; de ahí surgió una introducción construida en buena parte con cuerdas al aire. Estaba de gira, echaba de menos a su novia y escribió algo que consideraba estrictamente personal. No pensaba ofrecerlo a la banda. Para un músico acostumbrado a protegerse detrás del volumen, la velocidad y una imagen de dureza, aquella canción exponía demasiado. Lars Ulrich la escuchó y comprendió que precisamente esa incomodidad podía abrir un territorio nuevo para Metallica.
 
-  Publicada en 1991, se convirtió justo en lo contrario de lo que temían: la
-  prueba de que mostrarse vulnerable no debilita, une.
+  La pieza quedó acreditada a Hetfield y Ulrich y apareció en 1991 dentro de *Metallica*, el álbum conocido universalmente como *The Black Album*. Bob Rock produjo unas sesiones que transformaron el sonido del grupo: menos densidad thrash, más peso, espacio y claridad. «Nothing Else Matters» llevó esa apertura hasta un lugar impensable unos años antes. Michael Kamen escribió el arreglo orquestal y Hetfield asumió incluso el solo de guitarra, una función asociada normalmente a Kirk Hammett. El sencillo llegó en 1992 y terminó convertido en una de las canciones más populares del grupo, aunque en su origen Hetfield temiera que una confesión tan directa no perteneciera al mundo de Metallica.
+
+  La historia del teléfono está documentada; también lo están la resistencia inicial de Hetfield y la intervención de Ulrich. Lo que conviene matizar es su significado. Nació vinculada a una relación y a la distancia de las giras, pero con el tiempo su propio autor dejó de verla únicamente como una canción romántica. Hetfield ha explicado que empezó a reconocer en ella la hermandad, la lealtad y la conexión con personas que la hicieron suya en contextos muy distintos. Esa evolución explica su permanencia: no describe una pareja concreta, sino el raro alivio de confiar sin reservas. La lectura popular habla de amor; la lectura confirmada por su recorrido es más amplia. Puede ser amor de pareja, amistad, familia o el pacto silencioso entre una banda y quienes llevan décadas escuchándola.
 emocion: |
-  Es la confianza que solo aparece cuando bajas la guardia. La cercanía de
-  decir en voz alta lo que normalmente se calla.
+  Es la intimidad que aparece cuando alguien deja de defenderse. No consiste simplemente en contar un secreto, sino en aceptar el riesgo de que otra persona vea aquello que uno suele proteger: el miedo, la necesidad, la ternura. La confianza nunca ofrece garantías. Abrirse significa entregar a otro la posibilidad de herirnos y creer, aun así, que no lo hará. En una banda identificada con la fuerza, esa exposición resultaba casi más radical que cualquier riff agresivo. La canción no abandona la dureza de Metallica; descubre que también hace falta valentía para bajar el escudo.
 
-  La emoción de descubrir que aquello que creías una debilidad —abrirte a
-  alguien— es en realidad lo que te sostiene.
+  También contiene una forma serena de concentración. Cuando una relación es verdadera, el ruido exterior pierde autoridad: las expectativas, las opiniones y el personaje que representamos ante los demás dejan de gobernar por un momento. Queda un vínculo sencillo, elegido y suficiente. Por eso la emoción ha podido escapar de la historia privada de Hetfield. Cada oyente decide quién ocupa ese espacio de confianza. La canción no exige una biografía idéntica, solo haber conocido alguna vez a alguien ante quien no sea necesario fingir. Lo vulnerable deja entonces de ser una fisura que amenaza con rompernos y se convierte en el lugar exacto por el que podemos encontrarnos.
 ilustracion: |
-  Un muro roto: la herida, la fractura, lo que se supone que debemos esconder.
-  Ese es el primer golpe.
+  La primera mirada encuentra una superficie casi negra atravesada de arriba abajo por una grieta irregular. No hay figuras, paisaje ni objeto reconocible que suavice la impresión: solo una materia sólida que ha cedido. Las ramificaciones más finas hacen visible la tensión acumulada alrededor de la rotura. En un primer instante, la imagen habla de fragilidad, del punto en que una estructura incapaz de seguir resistiendo se abre y muestra su interior. El fondo oscuro conserva el carácter severo de Metallica y evita convertir la vulnerabilidad en algo delicado o decorativo.
 
-  Pero la grieta está rellena de oro, como en el kintsugi japonés, donde lo
-  roto se repara con metal precioso y la reparación se muestra en lugar de
-  ocultarse. La fractura no se disimula: se ilumina. Lo vulnerable, mirado de
-  nuevo, es lo más valioso de la pieza.
+  La segunda lectura está en el color. La grieta no permanece vacía ni se disimula con una reparación invisible: aparece rellena de oro y evoca el kintsugi, la tradición japonesa que incorpora las cicatrices a la historia visible de una pieza. La imagen no reproduce literalmente una cerámica, sino que traslada su principio a un muro más áspero y monumental. Aquello que parecía anunciar una ruptura se convierte en la única fuente de luz. El oro no borra el daño ni devuelve la superficie a un estado anterior; reconoce que la pieza vale también por lo que ha atravesado. La confianza funciona igual: no elimina nuestras fracturas, pero permite mostrarlas sin vergüenza. Lo que parecía el punto más débil termina siendo el lugar por el que entra la luz y se construye el vínculo.
 ---

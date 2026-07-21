@@ -6,27 +6,20 @@ catalogo: "MOS-003"
 orden: 3
 acento: "#B5462F"
 imagen: "/obras/hurt.webp"
-imagenAlt: "Un trono ornamentado y vacío, cubierto de polvo, bajo un haz de luz tenue."
-simbolo: "Un trono ornamentado, vacío y cubierto de polvo."
+imagenAlt: "Un trono ornamentado y vacío, cubierto de polvo, permanece bajo un haz de luz tenue."
+simbolo: "Un trono vacío cuyo polvo pesa más que todo el poder que representa."
 historia: |
-  Escrita por otro y hecha suya para siempre. Cuando Johnny Cash la grabó en
-  2002, cerca del final de su vida, dejó de ser una canción sobre la
-  autodestrucción de la juventud y se convirtió en el balance de un hombre
-  entero mirando atrás.
+  «Hurt» no nació con Johnny Cash. Trent Reznor la escribió para Nine Inch Nails y la publicó en 1994 al final de *The Downward Spiral*, un álbum conceptual construido alrededor del aislamiento y la autodestrucción. En aquella versión, la voz parecía llegar desde el fondo de una crisis todavía abierta: era áspera, incómoda y deliberadamente cercana al derrumbe. Ocho años después, el productor Rick Rubin propuso la canción a Cash durante las sesiones de *American IV: The Man Comes Around*. La elección parecía improbable. Un pionero del country, con setenta años, entrando en una de las confesiones más oscuras del rock industrial. Precisamente por eso funcionó.
 
-  Su voz cascada le puso encima décadas de fama, pérdidas y arrepentimiento.
-  Lo que era dolor joven se volvió testamento.
+  Cash no intentó competir con la tensión sonora de Nine Inch Nails. La redujo a una instrumentación sobria, casi desnuda, y dejó en primer plano una voz deteriorada por la edad y la enfermedad. En 2002 su salud era frágil y sus manos ya no respondían como antes, pero esa limitación no debilitó la interpretación: le dio un tiempo distinto. Lo que en Reznor sonaba como una herida inmediata, en Cash parecía contener décadas enteras de excesos, fe, recaídas, amor, fama y arrepentimiento. *American IV* fue el último álbum que publicó en vida. Eso convirtió la grabación en testamento para el público, aunque no hubiera sido escrita como una despedida ni Cash fuera su autor.
+
+  La transformación terminó de fijarse con el vídeo dirigido por Mark Romanek y estrenado en 2003. Fue rodado en la casa de Cash y en el deteriorado House of Cash Museum de Hendersonville, entre recuerdos, trofeos, objetos religiosos y restos de una carrera monumental. Romanek contrapuso esas reliquias con imágenes del cantante joven; June Carter aparece observándolo en silencio. Ella todavía vivía durante el rodaje, un detalle importante frente a la lectura posterior que presenta el vídeo como duelo por su muerte. June falleció en mayo y Johnny en septiembre de aquel mismo año. El vídeo ganó póstumamente el Grammy de 2004 y terminó por convencer al propio Reznor, inicialmente receloso, de que Cash había creado una obra nueva a partir de la suya. Lo confirmado es esa apropiación artística. La lectura popular —válida, pero posterior— lo contempla como el epitafio consciente de Johnny Cash.
 emocion: |
-  Es el peso de todo lo conseguido cuando ya no queda con quién compartirlo.
-  El imperio en pie y el trono vacío.
+  Es el momento en que una vida deja de medirse por lo que ha conquistado y empieza a medirse por lo que ha perdido. No hay orgullo en el inventario, pero tampoco una petición fácil de perdón. Hay una lucidez tardía y brutal: reconocer que los logros, los aplausos y los objetos permanecen fuera de uno, mientras el cuerpo se debilita y las personas queridas desaparecen. La voz de Cash no interpreta a un personaje joven que teme destruirse. Suena como alguien que ya ha atravesado el incendio y contempla, sin adornos, aquello que quedó en pie.
 
-  La emoción de mirar tu propia vida como quien recorre un salón magnífico y
-  desierto, preguntándose de qué sirvió.
+  También es una canción sobre la imposibilidad de corregir el pasado desde el presente. El arrepentimiento no viaja hacia atrás; solo ilumina de otra manera lo vivido. Por eso la emoción no es únicamente tristeza. Contiene vergüenza, cansancio, amor y una dignidad extraña: la de no apartar la mirada cuando ya no queda tiempo para fabricar una versión más amable de uno mismo. Cash convierte la fragilidad en autoridad. Cuanto menos poder físico conserva su voz, más verdad parece soportar. El dolor deja de ser una explosión y se vuelve sedimento, una capa fina que acaba cubriéndolo todo.
 ilustracion: |
-  Un trono: símbolo inmediato de poder, éxito, corona ganada. Ese es el primer
-  golpe.
+  La primera mirada encuentra un trono ornamentado bajo un haz de luz tenue. Es un objeto grande, solemne y reconocible: habla de poder, prestigio y de una posición alcanzada después de una vida entera. No hay palacio alrededor, ni corona, ni figura humana que reclame el asiento. El espacio azul grisáceo permanece casi vacío y concentra toda la atención en ese único símbolo. Durante un instante, el trono todavía conserva la apariencia de una victoria; parece el lugar reservado para alguien que llegó a la cima y debería estar contemplando su legado.
 
-  Pero está vacío y cubierto de polvo, y la luz que lo alcanza es tenue, casi
-  un adiós. El objeto que representa haberlo tenido todo se convierte, mirado
-  de nuevo, en el retrato de haberse quedado sin nadie.
+  La segunda lectura comienza con la ausencia. El asiento está vacío y una capa de polvo apaga lentamente sus adornos. Nadie disfruta ya del poder que promete; nadie comparte la sala; ni siquiera sabemos si su dueño se ha marchado o simplemente ha dejado de poder ocuparlo. La luz cálida no celebra el objeto: entra débil, lateral, con la intimidad de una última visita. El polvo convierte el éxito en tiempo acumulado y hace visible aquello que el trono intentaba ocultar. Todo lo conseguido continúa allí, intacto e inútil, mientras falta la única persona capaz de darle sentido. No es el retrato de un hombre que no tuvo nada, sino el de alguien que descubre demasiado tarde que tenerlo todo nunca impidió quedarse solo.
 ---
