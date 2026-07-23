@@ -2,8 +2,8 @@
 titulo: "What a Wonderful World"
 autor: "Louis Armstrong"
 anio: 1967
-catalogo: "MOS-065"
-orden: 65
+catalogo: "MOS-061"
+orden: 61
 acento: "#E6C85C"
 imagen: "/obras/what-a-wonderful-world.webp"
 imagenAlt: "Una silueta limpia con un trapo una amplia zona de una ventana cubierta de suciedad y descubre tras ella hojas verdes, cielo azul y una luz dorada."

@@ -2,8 +2,8 @@
 titulo: "Total Eclipse of the Heart"
 autor: "Bonnie Tyler"
 anio: 1983
-catalogo: "MOS-062"
-orden: 62
+catalogo: "MOS-070"
+orden: 70
 acento: "#E3A34A"
 imagen: "/obras/total-eclipse-of-the-heart.webp"
 imagenAlt: "Una alianza dorada cuyo interior forma un eclipse total sobre un fondo azul grisáceo."

@@ -2,8 +2,8 @@
 titulo: "Insurrección"
 autor: "El Último de la Fila"
 anio: 1986
-catalogo: "MOS-063"
-orden: 63
+catalogo: "MOS-071"
+orden: 71
 acento: "#E6A34A"
 imagen: "/obras/insurreccion.webp"
 imagenAlt: "Un botón oscuro cosido a una tela azul grisácea conserva tres hilos tensos, mientras un cuarto hilo dorado se ha soltado y se eleva con holgura."

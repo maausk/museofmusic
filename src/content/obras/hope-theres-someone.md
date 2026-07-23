@@ -2,8 +2,8 @@
 titulo: "Hope There's Someone"
 autor: "Antony and the Johnsons"
 anio: 2005
-catalogo: "MOS-061"
-orden: 61
+catalogo: "MOS-070"
+orden: 70
 acento: "#E6B06A"
 imagen: "/obras/hope-theres-someone.webp"
 imagenAlt: "Una almohada blanca cuyo pliegue central sugiere dos manos entrelazadas."

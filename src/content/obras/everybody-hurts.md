@@ -2,8 +2,8 @@
 titulo: "Everybody Hurts"
 autor: "R.E.M."
 anio: 1992
-catalogo: "MOS-025"
-orden: 25
+catalogo: "MOS-068"
+orden: 68
 acento: "#E1A24A"
 imagen: "/obras/everybody-hurts.webp"
 imagenAlt: "Una enorme roca oscura permanece suspendida sobre un hilo dorado que, al atravesar el suelo, se transforma en el trazado de un latido."

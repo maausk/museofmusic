@@ -2,8 +2,8 @@
 titulo: "When I Was Your Man"
 autor: "Bruno Mars"
 anio: 2012
-catalogo: "MOS-063"
-orden: 63
+catalogo: "MOS-062"
+orden: 62
 acento: "#F08A45"
 imagen: "/obras/when-i-was-your-man.webp"
 imagenAlt: "Una silueta masculina sentada y cabizbaja extiende desde el pecho un hilo naranja que dibuja un abrazo incompleto alrededor de un gran espacio vacío y sale por el borde derecho."

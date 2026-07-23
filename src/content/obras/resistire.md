@@ -2,8 +2,8 @@
 titulo: "Resistiré"
 autor: "Dúo Dinámico"
 anio: 1988
-catalogo: "MOS-061"
-orden: 61
+catalogo: "MOS-065"
+orden: 65
 acento: "#E1A441"
 imagen: "/obras/resistire.webp"
 imagenAlt: "Un único junco dorado se dobla casi hasta tocar el agua bajo una tormenta, mientras su reflejo permanece completamente erguido."

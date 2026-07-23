@@ -2,8 +2,8 @@
 titulo: "Flowers"
 autor: "Miley Cyrus"
 anio: 2023
-catalogo: "MOS-064"
-orden: 64
+catalogo: "MOS-063"
+orden: 63
 acento: "#F08A45"
 imagen: "/obras/flowers.webp"
 imagenAlt: "Una silueta femenina sentada corta con la mano el hilo naranja que entra desde la izquierda, mientras una pequeña espiral luminosa nace de su propio pecho."

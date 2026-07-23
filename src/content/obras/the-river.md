@@ -2,8 +2,8 @@
 titulo: "The River"
 autor: "Bruce Springsteen"
 anio: 1980
-catalogo: "MOS-024"
-orden: 24
+catalogo: "MOS-069"
+orden: 69
 acento: "#D69B45"
 imagen: "/obras/the-river.webp"
 imagenAlt: "Unas botas de trabajo gastadas proyectan una sombra que revela a dos niños balanceándose en unos columpios."

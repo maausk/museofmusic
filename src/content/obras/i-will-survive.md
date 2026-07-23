@@ -2,8 +2,8 @@
 titulo: "I Will Survive"
 autor: "Gloria Gaynor"
 anio: 1978
-catalogo: "MOS-062"
-orden: 62
+catalogo: "MOS-064"
+orden: 64
 acento: "#E36A4D"
 imagen: "/obras/i-will-survive.webp"
 imagenAlt: "Una flor coral crece erguida sobre una base formada por sus propias raíces, mientras los fragmentos de la maceta rota quedan apartados a ambos lados."

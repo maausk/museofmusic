@@ -2,8 +2,8 @@
 titulo: "Bridge over Troubled Water"
 autor: "Simon & Garfunkel"
 anio: 1970
-catalogo: "MOS-022"
-orden: 22
+catalogo: "MOS-066"
+orden: 66
 acento: "#E0A04A"
 imagen: "/obras/bridge-over-troubled-water.webp"
 imagenAlt: "Un puente de piedra cruza un profundo abismo. Al observar con atención, el puente revela la silueta de una persona tendida que sostiene el paso entre ambos lados."

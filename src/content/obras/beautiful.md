@@ -2,8 +2,8 @@
 titulo: "Beautiful"
 autor: "Eminem"
 anio: 2009
-catalogo: "MOS-023"
-orden: 23
+catalogo: "MOS-067"
+orden: 67
 acento: "#D8A14A"
 imagen: "/obras/beautiful.webp"
 imagenAlt: "Un jarrón de cerámica reparado con kintsugi. Sus grietas doradas forman la silueta luminosa de una persona erguida en su interior."
