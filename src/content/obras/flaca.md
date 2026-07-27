@@ -2,7 +2,7 @@
 titulo: "Flaca"
 autor: "Andrés Calamaro"
 anio: 1997
-catalogo: "MOS-076
+catalogo: "MOS-076"
 orden: 76
 acento: "#E3B08A"
 imagen: "/obras/flaca.webp"
