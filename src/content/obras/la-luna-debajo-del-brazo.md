@@ -2,8 +2,8 @@
 titulo: "La luna debajo del brazo"
 autor: "Quique González"
 anio: 2009
-catalogo: "MOS-072"
-orden: 72
+catalogo: "MOS-078"
+orden: 78
 acento: "#D8A05B"
 imagen: "/obras/la-luna-debajo-del-brazo.webp"
 imagenAlt: "Una figura camina alejándose con una luna brillante bajo el brazo; su sombra se transforma en una habitación vacía con una silla y una ventana."

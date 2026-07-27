@@ -2,8 +2,8 @@
 titulo: "Llamando a la Tierra"
 autor: "M-Clan"
 anio: 1999
-catalogo: "MOS-073"
-orden: 73
+catalogo: "MOS-079"
+orden: 79
 acento: "#D79149"
 imagen: "/obras/llamando-a-la-tierra.webp"
 imagenAlt: "Un astronauta solitario lanza una señal hacia la distancia; su sombra se alarga hasta convertirse en una ventana con una silla vacía."

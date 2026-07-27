@@ -2,8 +2,8 @@
 titulo: "Flaca"
 autor: "Andrés Calamaro"
 anio: 1997
-catalogo: "MOS-070"
-orden: 70
+catalogo: "MOS-076
+orden: 76
 acento: "#E3B08A"
 imagen: "/obras/flaca.webp"
 imagenAlt: "Una pluma clara y ligera proyecta la sombra de un ancla oscura que agrieta el suelo sobre un fondo azul grisáceo."

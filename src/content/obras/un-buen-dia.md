@@ -2,8 +2,8 @@
 titulo: "Un buen día"
 autor: "Los Planetas"
 anio: 2000
-catalogo: "MOS-068"
-orden: 68
+catalogo: "MOS-074"
+orden: 74
 acento: "#D79A45"
 imagen: "/obras/un-buen-dia.webp"
 imagenAlt: "Dos siluetas anónimas caminan con normalidad una junto a la otra sobre un fondo azul grisáceo; una de las dos proyecta una sombra larga atravesada por una grieta luminosa."

@@ -2,8 +2,8 @@
 titulo: "the 1"
 autor: "Taylor Swift"
 anio: 2020
-catalogo: "MOS-069"
-orden: 69
+catalogo: "MOS-075"
+orden: 75
 acento: "#D6A04A"
 imagen: "/obras/the-1.webp"
 imagenAlt: "Una taza solitaria junto a la marca circular dejada por otra; sus sombras forman dos figuras, pero una de ellas se desvanece."

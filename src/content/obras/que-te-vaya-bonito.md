@@ -2,8 +2,8 @@
 titulo: "Que te vaya bonito"
 autor: "Chavela Vargas"
 anio: 1961
-catalogo: "MOS-071"
-orden: 71
+catalogo: "MOS-077"
+orden: 77
 acento: "#D88F55"
 imagen: "/obras/que-te-vaya-bonito.webp"
 imagenAlt: "Un pañuelo blanco reposa sobre un fondo azul oscuro y proyecta la sombra de un ave en vuelo; bajo él, una pequeña grieta luminosa atraviesa el suelo."

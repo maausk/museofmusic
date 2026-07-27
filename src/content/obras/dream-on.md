@@ -2,7 +2,7 @@
 titulo: "Dream On"
 autor: "Aerosmith"
 anio: 1973
-catalogo: "MOS-067"
+catalogo: "MOS-073"
 orden: 67
 acento: "#D89A4A"
 imagen: "/obras/dream-on.webp"
