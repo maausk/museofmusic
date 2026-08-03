@@ -1,0 +1,27 @@
+---
+titulo: "Siempre estás allí"
+autor: "Barón Rojo"
+anio: 1983
+catalogo: "MOS-101"
+orden: 101
+acento: "#E0A04A"
+imagen: "/obras/siempre-estas-alli.webp"
+imagenAlt: "Una figura solitaria contempla en un recinto azul oscuro una multitud formada únicamente por una huella ovalada de luz dorada."
+simbolo: "La huella luminosa que el público deja cuando el concierto ya ha terminado."
+historia: |
+  “Siempre estás allí” apareció en *Metalmorfosis*, el tercer álbum de estudio de Barón Rojo, publicado en 1983 por Chapa Discos. El grupo llegaba lanzado tras el impacto de *Volumen brutal* y su paso por el Festival de Reading, pero no optó por repetir la misma fórmula. Volvió a Londres para grabar en los Battery Studios y construyó un disco más variado, capaz de combinar la contundencia del heavy metal con desarrollos melódicos más amplios. Dentro de ese repertorio, la canción destacó como una balada de crecimiento lento: comienza en un espacio íntimo y termina alcanzando una intensidad propia de estadio. La voz principal y el bajo pertenecen a José Luis Campuzano “Sherpa”, acompañado por Armando y Carlos de Castro a las guitarras y Hermes Calabria a la batería.
+
+  La composición está firmada por Sherpa, Carolina Cortés y Armando de Castro. Cortés, pareja de Sherpa y colaboradora habitual del grupo, tuvo un papel decisivo en muchas de las letras más recordadas de aquella formación. En este caso, el punto de partida no fue una relación amorosa concreta, aunque la canción pueda escucharse así fuera de contexto. Sherpa explicó años después que querían retratar una experiencia repetida durante las giras: mirar desde el escenario y reconocer la cara de un chico o una chica que volvía a aparecer entre el público, aunque la banda hubiese cambiado de ciudad o de provincia. Tras el concierto surgía una pregunta sencilla y extraña: qué sería de esa persona cuando se encendieran las luces, se vaciara el pabellón y cada cual regresara a su vida. Incluso algunas imágenes aparentemente dramáticas de la canción nacieron de observaciones cotidianas y humorísticas sobre la noche posterior a un concierto, desde quien acababa dormido en un rincón hasta quien desaparecía bajo tierra al tomar el metro.
+
+  El vínculo terminó desbordando la grabación original. En febrero de 1984, Barón Rojo registró dos conciertos multitudinarios en el Pabellón de la Ciudad Deportiva del Real Madrid. Parte del material apareció aquel mismo año en *Barón al rojo vivo* y otra selección se publicó en 1986 con un título que transformaba el singular en plural: *Siempre estáis allí*. El cambio convertía en explícito lo que la canción ya contenía. No estaba dirigida a una única figura idealizada, sino a todas las personas que sostenían al grupo desde abajo del escenario. Con el tiempo se convirtió en uno de los cierres más emotivos de sus conciertos y en una de las baladas esenciales del heavy español. Su fuerza está en invertir la relación habitual entre estrella y admirador: aquí es el músico quien observa, reconoce y agradece.
+
+emocion: |
+  Hay una soledad muy particular al terminar un acontecimiento compartido. Durante unas horas, miles de personas respiran al mismo ritmo; después, el recinto se vacía con una rapidez casi cruel. Quedan el suelo sucio, las luces de servicio y un silencio que parece demasiado grande para el espacio. “Siempre estás allí” habita ese instante, pero no lo convierte en abandono. La ausencia física del público conserva una temperatura. Algo permanece flotando en la sala y acompaña al músico cuando vuelve a la carretera.
+
+  La canción habla de gratitud, pero también de reconocimiento mutuo. Para quien está entre el público, una banda puede acompañar años enteros sin saber siquiera que esa persona existe. Desde el escenario ocurre el movimiento contrario: entre una multitud aparentemente anónima, ciertas caras terminan siendo familiares. Esa pequeña reciprocidad rompe la distancia entre quien interpreta y quien escucha. Nadie posee para siempre el momento del concierto, pero ambos lados lo sostienen mientras dura. Después no queda una multitud, sino la certeza de que volverá a reunirse en otra ciudad. La conexión no vence al final porque nunca depende de un solo lugar.
+
+ilustracion: |
+  La ilustración sitúa a una figura anónima de espaldas en un recinto inmenso y azul grisáceo. No hay focos encendidos, instrumentos ni elementos que identifiquen literalmente un escenario. Frente a ella aparece una multitud de perfiles dorados, reunidos dentro de una zona ovalada de luz. Al primer vistazo parece que el personaje contempla todavía a su público desde cierta distancia: un último instante de comunión después del espectáculo. La escala refuerza la emoción. La figura es pequeña y oscura; aquello que tiene delante es amplio, cálido y colectivo.
+
+  La segunda lectura revela que esa multitud no ocupa realmente la sala. Los cuerpos carecen de detalle y se disuelven dentro del resplandor, como una impresión que ha quedado adherida al suelo cuando todo el mundo ya se ha marchado. No estamos viendo el concierto, sino su memoria. La luz dorada funciona a la vez como público, calor y hogar, mientras la arquitectura oscura vuelve visible la soledad posterior. La sombra larga de la figura apunta hacia fuera, hacia la próxima carretera, pero el brillo queda delante como una reserva emocional que podrá llevar consigo. Primero vemos a alguien ante una multitud; después comprendemos que está completamente solo y, sin embargo, sigue acompañado.
+---
